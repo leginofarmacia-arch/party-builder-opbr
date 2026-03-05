@@ -1,0 +1,409 @@
+{
+  "Attacker(s)": {
+    "levels": {
+      "1": ["ATK +10"],
+      "2": ["ATK +20"],
+      "3": ["ATK +40"],
+      "4": ["ATK +80", "Critical Damage +3%"],
+      "5": ["ATK +200", "Critical Damage +5%"]
+    }
+  },
+ "Defender(s)": {
+    "levels": {
+      "1": ["DEF +10"],
+      "2": ["DEF +20"],
+      "3": ["DEF +40"],
+      "4": ["DEF +80", "Treasure Gauge Recovery +5%"],
+      "5": ["DEF +200", "Treasure Gauge Recovery +10%"]
+    }
+  },
+  "Runner(s)": {
+    "levels": {
+      "1": ["HP +40"],
+      "2": ["HP +80"],
+      "3": ["HP +160"],
+      "4": [
+        "HP +320",
+        "Base Treasure Gauge on Capture +10%"
+      ],
+      "5": [
+        "HP +800",
+        "Base Treasure Gauge on Capture +30%"
+      ]
+    }
+  },
+"New World": {
+  "levels": {
+    "1": [
+      "When your HP is 50% or less: Increase damage to enemies with the Element you are weak against by 2%"
+    ],
+    "2": [
+      "When your HP is 50% or less: Increase damage to enemies with the Element you are weak against by 4%"
+    ],
+    "3": [
+      "When your HP is 50% or less: Increase damage to enemies with the Element you are weak against by 10%"
+    ],
+    "4": [
+      "When your HP is 50% or less: Increase damage to enemies with the Element you are weak against by 15%"
+    ],
+    "5": [
+      "Increase damage to enemies with the Element you are weak against by 15%"
+    ]
+  }
+},
+  "Straw Hat Pirates": {
+    "levels": {
+      "1": ["When your HP is 50% or less: Reduce Critical Damage received from enemies by 4%."],
+      "2": ["When your HP is 50% or less: Reduce Critical Damage received from enemies by 8%."],
+      "3": ["When your HP is 50% or less: Reduce Critical Damage received from enemies by 20%."],
+      "4": ["When your HP is 50% or less: Reduce Critical Damage received from enemies by 30%."],
+      "5": ["Reduce Critical Damage received from enemies by 30%."]
+    }
+  },
+
+  "Paramecia": {
+    "levels": {
+      "1": ["When your HP is 50% or less: Increase Critical Damage dealt by 1%."],
+      "2": ["When your HP is 50% or less: Increase Critical Damage dealt by 3%."],
+      "3": ["When your HP is 50% or less: Increase Critical Damage dealt by 6%."],
+      "4": ["When your HP is 50% or less: Increase Critical Damage dealt by 10%."],
+      "5": ["When your HP is 50% or less: Increase Critical Damage dealt by 20%."]
+    }
+  },
+
+  "Roger Pirates": {
+    "levels": {
+      "1": ["When your HP is 50% or less: Reduces the effect time of status inflicted by enemies by 2%."],
+      "2": ["When your HP is 50% or less: Reduces the effect time of status inflicted by enemies by 4%."],
+      "3": ["When your HP is 50% or less: Reduces the effect time of status inflicted by enemies by 10%."],
+      "4": ["When your HP is 50% or less: Reduces the effect time of status inflicted by enemies by 15%."],
+      "5": ["When your HP is 50% or less: Reduces the effect time of status inflicted by enemies by 30%."]
+    }
+  },
+
+  "Zoan": {
+    "levels": {
+      "1": ["When your HP is 50% or less: Reduces damage received from enemies with the element you are weak against by 2%."],
+      "2": ["When your HP is 50% or less: Reduces damage received from enemies with the element you are weak against by 4%."],
+      "3": ["When your HP is 50% or less: Reduces damage received from enemies with the element you are weak against by 10%."],
+      "4": ["When your HP is 50% or less: Reduces damage received from enemies with the element you are weak against by 15%."],
+      "5": ["Reduces damage received from enemies with the element you are weak against by 15%."]
+    }
+  },
+
+  "Captain": {
+    "levels": {
+      "1": ["When your HP is 50% or less: 10% chance of resisting Stagger from Character type \"long-range normal attack\" enemies' normal Attacks."],
+      "2": ["When your HP is 50% or less: 30% chance of resisting Stagger from Character type \"long-range normal attack\" enemies' normal Attacks."],
+      "3": ["When your HP is 50% or less: 80% chance of resisting Stagger from Character type \"long-range normal attack\" enemies' normal Attacks."],
+      "4": [
+        "When your HP is 50% or less: 100% chance of resisting Stagger from Character type \"long-range normal attack\" enemies' normal Attacks.",
+        "When your HP is 30% or less: Reduces damage received from character type \"long-range normal attack\" enemies' normal Attacks by 10"
+      ],
+      "5": [
+        "When your HP is 50% or less: 100% chance of resisting Stagger from Character type \"long-range normal attack\" enemies' normal Attacks.",
+        "When your HP is 30% or less: Reduces damage received from character type \"long-range normal attack\" enemies' normal Attacks by 20"
+      ]
+    }
+  },
+
+  "Worst Generation": {
+    "levels": {
+      "1": ["When in the area around your enemy's Treasure: Increase Knockback distance by 3%."],
+      "2": ["When in the area around your enemy's Treasure: Increase Knockback distance by 5%."],
+      "3": ["When in the area around your enemy's Treasure: Increase Knockback distance by 10%."],
+      "4": ["When in the area around your enemy's Treasure: Increase Knockback distance by 20%."],
+      "5": [
+        "When in the area around your enemy's Treasure: Increase Knockback distance by 30%",
+        "When in the area around your captured Treasure: Increase Knockback distance by 30%"
+      ]
+    }
+  },
+
+  "Baroque Works": {
+    "levels": {
+      "1": ["When you capture the Treasure: Reduce the cooldown time of skill 1 by 1%."],
+      "2": ["When you capture the Treasure: Reduce the cooldown time of skill 1 by 2%."],
+      "3": ["When you capture the Treasure: Reduce the cooldown time of skill 1 by 4%."],
+      "4": ["When you capture the Treasure: Reduce the cooldown time of skill 1 by 8%."],
+      "5": ["When you capture the Treasure: Reduce the cooldown time of skill 1 by 15%."]
+    }
+ },
+ "The Grand Line": {
+    "levels": {
+      "1": [
+        "When your HP is 50% or less: Reduce damage received from enemies with the same Element by 2%."
+      ],
+      "2": [
+        "When your HP is 50% or less: Reduce damage received from enemies with the same Element by 4%."
+      ],
+      "3": [
+        "When your HP is 50% or less: Reduce damage received from enemies with the same Element by 10%."
+      ],
+      "4": [
+        "When your HP is 50% or less: Reduce damage received from enemies with the same Element by 15%."
+      ],
+      "5": ["Reduce damage received from enemies with the same Element by 15%."]
+    }
+  },
+
+  "Navy": {
+    "levels": {
+      "1": [
+        "When in the area around your captured Treasure: Reduce Knockback distance by 10%."
+      ],
+      "2": [
+        "When in the area around your captured Treasure: Reduce Knockback distance by 20%."
+      ],
+      "3": [
+        "When in the area around your captured Treasure: Reduce Knockback distance by 30%."
+      ],
+      "4": [
+        "When in the area around your captured Treasure: Reduce Knockback distance by 40%."
+      ],
+      "5": [
+        "When in the area around your captured Treasure: Reduce Knockback distance by 60%."
+      ]
+    }
+  },
+
+  "East Blue": {
+    "levels": {
+      "1": [
+        "When your HP is 50% or less: Increase damage to enemies with the same Element by 2%."
+      ],
+      "2": [
+        "When your HP is 50% or less: Increase damage to enemies with the same Element by 4%."
+      ],
+      "3": [
+        "When your HP is 50% or less: Increase damage to enemies with the same Element by 10%."
+      ],
+      "4": [
+        "When your HP is 50% or less: Increase damage to enemies with the same Element by 15%."
+      ],
+      "5": ["Increase damage to enemies with the same Element by 15%."]
+    }
+  },
+
+  "The Seven warlords of the Sea": {
+    "levels": {
+      "1": [
+        "When your HP is 50% or more: Increases the duration of applied status effects by 2% (including status effects that buff their target for a certain period of time)."
+      ],
+      "2": [
+        "When your HP is 50% or more: Increases the duration of applied status effects by 4% (including status effects that buff their target for a certain period of time)."
+      ],
+      "3": [
+        "When your HP is 50% or more: Increases the duration of applied status effects by 10% (including status effects that buff their target for a certain period of time)."
+      ],
+      "4": [
+        "When your HP is 50% or more: Increases the duration of applied status effects by 15% (including status effects that buff their target for a certain period of time)."
+      ],
+      "5": [
+        "When your HP is 50% or more: Increases the duration of applied status effects by 30% (including status effects that buff their target for a certain period of time)."
+      ]
+    }
+  },
+
+"Logia": {
+  "levels": {
+    "1": [
+      "When your HP is 50% or more: 20% chance of resisting Stagger from character type \"long-range normal attack\" enemies' normal attacks."
+    ],
+    "2": [
+      "When your HP is 50% or more: 60% chance of resisting Stagger from character type \"long-range normal attack\" enemies' normal attacks."
+    ],
+    "3": [
+      "When your HP is 50% or more: 100% chance of resisting Stagger from character type \"long-range normal attack\" enemies' normal attacks."
+    ],
+    "4": [
+      "When your HP is 50% or more: 100% chance of resisting Stagger from character type \"long-range normal attack\" enemies' normal attacks.",
+      "When your HP is 70% or more: Reduces damage received from character type \"long-range normal attack\" enemies' normal Attacks by 20"
+    ],
+    "5": [
+      "When your HP is 50% or more: 100% chance of resisting Stagger from character type \"long-range normal attack\" enemies' normal attacks.",
+      "When your HP is 70% or more: Reduces damage received from character type \"long-range normal attack\" enemies' normal Attacks by 50"
+    ]
+  }
+},
+
+"Fish-Man": {
+  "levels": {
+    "1": [
+      "When in the area around your enemy's Treasure: Reduce Knockback distance by 10%."
+    ],
+    "2": [
+      "When in the area around your enemy's Treasure: Reduce Knockback distance by 20%."
+    ],
+    "3": [
+      "When in the area around your enemy's Treasure: Reduce Knockback distance by 30%."
+    ],
+    "4": [
+      "When in the area around your enemy's Treasure: Reduce Knockback distance by 40%."
+    ],
+    "5": [
+      "When in the area around your enemy's Treasure: Reduce Knockback distance by 60%."
+    ]
+  }
+},
+
+"Animal Kingdom Pirates": {
+  "levels": {
+    "1": [
+      "When your HP is 70% or more: Increase Normal Attack damage dealt by 1%."
+    ],
+    "2": [
+      "When your HP is 70% or more: Increase Normal Attack damage dealt by 3%."
+    ],
+    "3": [
+      "When your HP is 70% or more: Increase Normal Attack damage dealt by 6%."
+    ],
+    "4": [
+      "When your HP is 70% or more: Increase Normal Attack damage dealt by 10%."
+    ],
+    "5": [
+      "When your HP is 70% or more: Increase Normal Attack damage dealt by 15%."
+    ]
+  }
+},
+
+"Navy Admiral": {
+  "levels": {
+    "1": [
+      "When your HP is 50% or less: Increase damage to Runners by 2%."
+    ],
+    "2": [
+      "When your HP is 50% or less: Increase damage to Runners by 4%."
+    ],
+    "3": [
+      "When your HP is 50% or less: Increase damage to Runners by 10%."
+    ],
+    "4": [
+      "When your HP is 50% or less: Increase damage to Runners by 15%."
+    ],
+    "5": [
+      "Increase damage to Runners by 15%."
+    ]
+  }
+},
+
+"Royalty": {
+  "levels": {
+    "1": [
+      "After KOing an enemy, Recover HP by 1%."
+    ],
+    "2": [
+      "After KOing an enemy, Recover HP by 3%."
+    ],
+    "3": [
+      "After KOing an enemy, Recover HP by 6%."
+    ],
+    "4": [
+      "After KOing an enemy, Recover HP by 10%."
+    ],
+    "5": [
+      "After KOing an enemy, Recover HP by 15%."
+    ]
+  }
+},
+
+"Revolutionary Army": {
+  "levels": {
+    "1": [
+      "When your HP is 70% or more: Reduce Knockback distance by 10%."
+    ],
+    "2": [
+      "When your HP is 70% or more: Reduce Knockback distance by 20%."
+    ],
+    "3": [
+      "When your HP is 70% or more: Reduce Knockback distance by 30%."
+    ],
+    "4": [
+      "When your HP is 70% or more: Reduce Knockback distance by 40%."
+    ],
+    "5": [
+      "When your HP is 70% or more: Reduce Knockback distance by 60%."
+    ]
+  }
+},
+
+"Kozuki Clan": {
+  "levels": {
+    "1": [
+      "When your HP is 50% or less: Reduces damage received from enemies' normal attacks by 1%."
+    ],
+    "2": [
+      "When your HP is 50% or less: Reduces damage received from enemies' normal attacks by 3%."
+    ],
+    "3": [
+      "When your HP is 50% or less: Reduces damage received from enemies' normal attacks by 6%."
+    ],
+    "4": [
+      "When your HP is 50% or less: Reduces damage received from enemies' normal attacks by 10%."
+    ],
+    "5": [
+      "When your HP is 50% or less: Reduces damage received from enemies' normal attacks by 15%."
+    ]
+  }
+},
+
+"Don Quixote Family": {
+  "levels": {
+    "1": [
+      "When your HP is 50% or less: Increase Normal Attack damage dealt by 1%."
+    ],
+    "2": [
+      "When your HP is 50% or less: Increase Normal Attack damage dealt by 3%."
+    ],
+    "3": [
+      "When your HP is 50% or less: Increase Normal Attack damage dealt by 6%."
+    ],
+    "4": [
+      "When your HP is 50% or less: Increase Normal Attack damage dealt by 10%."
+    ],
+    "5": [
+      "When your HP is 50% or less: Increase Normal Attack damage dealt by 15%."
+    ]
+  }
+},
+
+"Charlotte Family": {
+  "levels": {
+    "1": [
+      "When your HP is 70% or more: Reduces damage received from enemies' normal Attacks by 1%."
+    ],
+    "2": [
+      "When your HP is 70% or more: Reduces damage received from enemies' normal Attacks by 3%."
+    ],
+    "3": [
+      "When your HP is 70% or more: Reduces damage received from enemies' normal Attacks by 6%."
+    ],
+    "4": [
+      "When your HP is 70% or more: Reduces damage received from enemies' normal Attacks by 10%."
+    ],
+    "5": [
+      "When your HP is 70% or more: Reduces damage received from enemies' normal Attacks by 15%."
+    ]
+  }
+},
+
+"Whitebeard Pirates": {
+  "levels": {
+    "1": [
+      "When your HP is 50% or less: Increases the duration of applied status effects by 2% (including status effects that buff their target for a certain period of time)."
+    ],
+    "2": [
+      "When your HP is 50% or less: Increases the duration of applied status effects by 4% (including status effects that buff their target for a certain period of time)."
+    ],
+    "3": [
+      "When your HP is 50% or less: Increases the duration of applied status effects by 10% (including status effects that buff their target for a certain period of time)."
+    ],
+    "4": [
+      "When your HP is 50% or less: Increases the duration of applied status effects by 15% (including status effects that buff their target for a certain period of time)."
+    ],
+    "5": [
+      "When your HP is 50% or less: Increases the duration of applied status effects by 30% (including status effects that buff their target for a certain period of time)."
+    ]
+  }
+}
+}

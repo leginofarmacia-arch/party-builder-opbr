@@ -1,0 +1,6185 @@
+[
+  {
+    "id": 1,
+    "name": "Baroque Works / Officer Agent\nMr. 5",
+    "primaryColor": "Dark",
+    "colors": [
+      "Dark"
+    ],
+    "color": "Dark",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Baroque Works",
+      "Paramecia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Baroque Works / Officer Agent\nMs. Valentine",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Baroque Works",
+      "Paramecia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "The Four Emperors\nMarshall D. Teach",
+    "primaryColor": "Dark",
+    "colors": [
+      "Light",
+      "Dark"
+    ],
+    "color": "Light",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Paramecia",
+      "Logia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation",
+      "Blackbeard Pirates"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "ASL\nAce & Sabo & Luffy",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+   "primaryRole": "Attacker",
+"roles": ["Attacker", "Runner","Defender"],
+"role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "East Blue",
+      "Paramecia",
+      "Power users"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Winner Island\nTrafalgar Law",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Winner Island\nBepo",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "New World",
+      "Minks"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Genius Scientist\nVegapunk",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Navy",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Father and Daughter\nKuma & Bonney",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Revolutionary Army",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Egghead\nJinbe",
+    "primaryColor": "Dark",
+    "colors": [
+      "Dark"
+    ],
+    "color": "Dark",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Straw Hat Pirates",
+      "Fish-Man",
+      "New World"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Egghead\nFranky",
+    "primaryColor": "Dark",
+    "colors": [
+      "Dark"
+    ],
+    "color": "Dark",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "New World"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "The Five Elders\nSt. Jaygarcia Saturn",
+    "primaryColor": "Dark",
+    "colors": [
+      "Dark" ],
+    "color": "Dark",
+    "primaryRole": "Defender",
+"roles": ["Defender", "Runner"],
+"role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "New World",
+      "Celestial Dragons",
+      "Former Celestial Dragons"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Egghead\nNico Robin",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Egghead\nTony Tony Chopper",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "primaryRole": "Attacker",
+"roles": ["Attacker", "Defender"],
+"role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Zoan",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Egghead\nBrook",
+    "primaryColor": "Blue",
+    "colors": [
+      "Red",
+      "Blue",
+      "Green"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "The Four Emperors\nMonkey D. Luffy",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "Zoan",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Egghead\nUsopp",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Egghead\nNami",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "New World"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Blind Swordsman Fujitora\n[Issho]",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Navy",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Navy Admiral",
+      "Former Navy Admiral"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Groves of Wrath Ryokugyu\n[Aramaki]",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy",
+      "Logia",
+      "Power users",
+      "New World",
+      "Navy Admiral",
+      "Former Navy Admiral"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Ama no Murakumo Sword Kizaru\n[Borsalino]",
+    "primaryColor": "Red",
+    "colors": [
+      "Red",
+      "Blue",
+      "Green"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Navy",
+      "Logia",
+      "Power users",
+      "New World",
+      "Navy Admiral",
+      "Former Navy Admiral"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Davy Back Fight\nSanji",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(S",
+      "Straw Hat Pirates",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Foxy Pirates / Captain\nFoxy",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Davy Back Fight\nMonkey D. Luffy",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Happosui Army / 13th Chief\nSai",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "New World",
+      "Straw Hat Fleet"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Tontatta Pirates / Captain\nLeo",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Straw Hat Fleet"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Celestial Dragon\nSt. Charlos",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "The Grand Line",
+      "Long-Range Normal Attacks",
+      "Celestial Dragons",
+      "Former Celestial Dragons"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Clear-Clear Fruit\nShiryu",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Blackbeard Pirates"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Strong-Strong Fruit\nJesus Burgess",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Blackbeard Pirates"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Germa 66\nVinsmoke Yonji",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "New World",
+      "Germa 66",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Germa 66\nVinsmoke Neji",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "New World",
+      "Germa 66",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Germa 66\nVinsmoke Ichiji",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "New World",
+      "Germa 66",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Flame Emperor\nSabo",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Revolutionary Army",
+      "Logia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Assistant Fish-Man Karate Master\nKoala",
+    "primaryColor": "Dark",
+    "colors": [
+      "Dark"],
+    "color": "Dark",
+    "primaryRole": "Defender",
+"roles": ["Defender", "Attacker"],
+"role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Revolutionary Army",
+      "New World"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Blackbeard Pirates\nKuzan",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "primaryRole": "Defender",
+"roles": ["Defender", "Attacker"],
+"role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Logia",
+      "Power users",
+      "New World",
+      "Blackbeard Pirates",
+      "Navy Admiral",
+      "Former Navy Admiral"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Navy HQ / Captain\nKoby",
+    "primaryColor": "Dark",
+    "colors": [
+      "Dark"
+    ],
+    "color": "Dark",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Legendary Hero\nMonkey D. Garp",
+    "primaryColor": "Dark",
+    "colors": [
+      "Dark"
+    ],
+    "color": "Dark",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Navy",
+      "New World"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Navy HQ / Lt. Commander\nHelmeppo",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Navy",
+      "New World"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Egghead\nJewelry Bonney",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Egghead\nSanji",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Seraphim\nS-Shark",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Navy",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Punk-06\nYork",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Punk-05\nAtlas",
+    "primaryColor": "Dark",
+    "colors": [
+      "Dark"
+    ],
+    "color": "Dark",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Navy",
+      "New World"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Seraphim\nS-Bear",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Navy",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Punk-02\nLilith",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Happy Halloween\nUta",
+    "primaryColor": "Dark",
+    "colors": [
+      "Dark"
+    ],
+    "color": "Dark",
+    "primaryRole": "Runner",
+"roles": ["Runner", "Defender"],
+"role": "Runner"
+,
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "The Red\nBroggy",
+    "primaryColor": "Dark",
+    "colors": [
+      "Dark"
+    ],
+    "color": "Dark",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Captain",
+      "New World",
+      "Giant",
+      "Giant Pirate Crew"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "The Blue\nDorry",
+    "primaryColor": "Dark",
+    "colors": [
+      "Dark"
+    ],
+    "color": "Dark",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Divine Departure\nShanks",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Red-Haired Pirates",
+      "Captain",
+      "New World",
+      "Roger Pirates",
+      "Ex-Roger Pirates"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Vegapunk's Spy\nStussy",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "New World"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Awakened Form\nKaku",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Cipher Pol",
+      "Zoan",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Awakened Form\nRob Lucci",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "primaryRole": "Runner",
+"roles": ["Runner", "Attacker"],
+"role": "Runner"
+,
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Cipher Pol",
+      "Zoan",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "CP9\nJabra",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Cipher Pol",
+      "Zoan",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "CP9\nBlueno",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Cipher Pol",
+      "Paramecia",
+      "Power users",
+      "The Grand Line",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Seraphim\nS-Hawk",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Navy",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Egghead\nRoronoa Zoro",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Seraphim\nS-Snake",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Egghead\nMonkey D. Luffy",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "Zoan",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "The Navy's Human Weapon\nPacifista",
+    "primaryColor": "Dark",
+    "colors": [
+      "Dark"
+    ],
+    "color": "Dark",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Navy",
+      "New World"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "The Most Defensive Man in the World\nSentomaru",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy",
+      "New World"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Fake Straw Hat Pirates / Captain\nDemaro Black",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Captain",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Lvneel Kingdom / Exploration Ship Admiral\nMont Blanc Noland",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "The Great Warrior of Shandora\nKalgara",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "The Sky Knight\nGanfor",
+    "primaryColor": "Dark",
+    "colors": [
+      "Dark"
+    ],
+    "color": "Dark",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Ex-Roger Pirates / First Mate\nSilvers Rayleigh",
+    "primaryColor": "Dark",
+    "colors": [
+      "Dark"
+    ],
+    "color": "Dark",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "New World",
+      "Roger Pirates",
+      "Ex-Roger Pirates"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Great Pirate\nGol D. Roger",
+    "primaryColor": "Dark",
+    "colors": [
+      "Dark"
+    ],
+    "color": "Dark",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Captain",
+      "Roger Pirates",
+      "Ex-Roger Pirates"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Whole Cake Island\nCarrot",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "New World",
+      "Minks"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Heir to the Shogun of Wano\nKozuki Oden",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Whitebeard Pirates",
+      "Kozuki Clan",
+      "Kozuki Clan Servant",
+      "Roger Pirates",
+      "Ex-Roger Pirates"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Great Pirate\nEdward Newgate",
+    "primaryColor": "Light",
+    "colors": [
+      "Light"
+    ],
+    "color": "Light",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Whitebeard Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Fire Fist Ogre Princess\nAce & Yamato",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Zoan",
+      "Logia",
+      "Captain",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Shogun of Wano\nKozuki Momonosuke",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Zoan",
+      "Power users",
+      "New World",
+      "Kozuki Clan",
+      "Kozuki Clan Servant"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Navy HQ / Admiral Ryokugyu\n[Aramaki]",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Navy",
+      "Logia",
+      "Power users",
+      "New World",
+      "Navy Admiral",
+      "Former Navy Admiral"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Land of Wano\nOtama & Komachiyo",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Raid on Onigashima\nFranky",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "New World"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Raid on Onigashima\nTony Tony Chopper",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Zoan",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Animal Kingdom Pirates / Tobi Roppo\nBlack Maria",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Zoan",
+      "Power users",
+      "New World",
+      "Animal Kingdom Pirates"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Revolutionary Army / Captain of the Eastern Forces\nBelo Betty",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Revolutionary Army",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Revolutionary Army / Captain of the Northern Forces\nKarasu",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Revolutionary Army",
+      "Power users",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Revolutionary Army / Officer\nInazuma",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Revolutionary Army",
+      "Paramecia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Revolutionary Army / Solider\nHack",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Revolutionary Army",
+      "Fish-Man",
+      "New World"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Cyborg\nQueen",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Zoan",
+      "Power users",
+      "New World",
+      "Animal Kingdom Pirates"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Lunarian\nAlber",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Zoan",
+      "Power users",
+      "New World",
+      "Animal Kingdom Pirates"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Animal Kingdom Pirates / Tobi Roppo\nSasaki",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Zoan",
+      "Fish-Man",
+      "Power users",
+      "New World",
+      "Animal Kingdom Pirates"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Raid on Onigashima\nSanji",
+    "primaryColor": "Green",
+    "colors": [
+      "Red",
+      "Blue",
+      "Green"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Gear Five\nMonkey D. Luffy",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "primaryRole": "Defender",
+"roles": ["Defender", "Attacker","Runner"],
+"role": "Defender"
+,
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "Zoan",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Singer of the New Genesis\nUta",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Raid on Onigashima\nKiller",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Battle of Monsters on Onigashima\nKid & Law",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "New Fish-Man Pirates / Captain\nHody Jones",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Captain",
+      "Fish-Man",
+      "New World"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Ryugu Kingdom / King\nNeptune",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "New World",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Caribou Pirates / Captain\nCaribou",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Logia",
+      "Captain",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Flying Pirates / Captain\nVander Decken IX",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Paramecia",
+      "Captain",
+      "Fish-Man",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Raid on Onigashima\nUsopp",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Raid on Onigashima\nNami",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "New World"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Okuchi-no-Makami\nYamato",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Zoan",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Raid on Onigashima\nBrook",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Raid on Onigashima\nNico Robin",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Triple-X-Level Boxer\nIdeo",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "New World"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "The Kingdom of Prodence / King\nElizabello II",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "New World",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Disciple of the Martial Arts\nKung Fu Jugon",
+    "primaryColor": "Green",
+    "colors": [
+      "Red",
+      "Blue",
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Slicing Winds of Rommel\nHakuba",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Captain",
+      "New World",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Former Happosui Army / 12th Chief\nChin Jao",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "New World"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Big Mom Pirates / Crewmate\nCharoltte Oven",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Charlotte Family",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Leader of the Whale Forest Guardians\nPedro",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "New World",
+      "Minks"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Big Mom Pirates / Crewmate\nCharlotte Brulee",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Charlotte Family",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Big Mom Pirates / \"Sweet 3\" General\nCharlotte Cracker",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Charlotte Family",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "First Act as a Married Couple\nCharlotte Pudding",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Charlotte Family",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Animal Kingdom Pirates / Tobi Roppo\nWho`s-Who",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Zoan",
+      "Power users",
+      "New World",
+      "Animal Kingdom Pirates"
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Raid on Onigashima\nJinbe",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Straw Hat Pirates",
+      "Fish-Man",
+      "New World"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Raid on Onigashima\nRoronoa Zoro",
+    "primaryColor": "Red",
+    "colors": [
+      "Red",
+      "Blue",
+      "Green"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Battle of Monsters on Onigashima\nKaido",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Zoan",
+      "Captain",
+      "Power users",
+      "New World",
+      "Animal Kingdom Pirates"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Battle of Monsters on Onigashima\nOlin the Oiran",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "primaryRole": "Defender",
+"roles": ["Defender", "Runner"],
+"role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Charlotte Family",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 112,
+    "name": "ODYSSEY\nAdio Suerte",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "New World"
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Animal Kingdom Pirates / Lead Performer\nKing",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Zoan",
+      "Power users",
+      "New World",
+      "Animal Kingdom Pirates"
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Top Secret Special Force Captain of \"Sword\"\nX. Drake",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Navy",
+      "Zoan",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Hyogoro Family / Big Boss\nHyogoro",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "New World"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Kozuki Clan / Servant\nRaizo",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Long-Range Normal Attacks",
+      "Kozuki Clan",
+      "Kozuki Clan Servant",
+      "Ninja"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Veteran Kunoichi\nShinobu",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Kozuki Clan",
+      "Kozuki Clan Servant",
+      "Ninja"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Don Quixote Pirates / Supreme Officer\nTrebol",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Don Quixote Family",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Don Quixote Pirates / Supreme Officer\nDiamante",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Don Quixote Family",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 120,
+    "name": "The Bullet of Dressrosa\nBellamy",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 121,
+    "name": "FILM RED\nUsopp",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "FILM RED\nYasopp",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Red-Haired Pirates",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 123,
+    "name": "FILM RED\nTony Tony Chopper",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "Zoan",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 124,
+    "name": "FILM RED\nNami",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 125,
+    "name": "FILM RED\nBen Beckman",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Red-Haired Pirates",
+      "New World"
+    ]
+  },
+  {
+    "id": 126,
+    "name": "FILM RED\nShanks",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "East Blue",
+      "Red-Haired Pirates",
+      "Captain",
+      "Roger Pirates",
+      "Ex-Roger Pirates"
+    ]
+  },
+  {
+    "id": 127,
+    "name": "FILM RED\nMonkey D. Luffy",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 128,
+    "name": "FILM RED\nUta",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 129,
+    "name": "FILM Z\nZephyr",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "New World",
+      "Navy Admiral",
+      "Former Navy Admiral"
+    ]
+  },
+  {
+    "id": 130,
+    "name": "FILM GOLD\nGild Tesoro",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 131,
+    "name": "FILM STRONG WORLD\nShiki",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 132,
+    "name": "STAMPEDE\nBoa Hancock",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Kuja Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Land of Wano\nMarco",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Whitebeard Pirates",
+      "Zoan",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Big Mom Pirates / Crewmate\nCharlotte Perospero",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Charlotte Family",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Animal Kingdom Pirates / Tobi Roppo\nUlti",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Zoan",
+      "Power users",
+      "New World",
+      "Animal Kingdom Pirates"
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Animal Kingdom Pirates / Tobi Roppo\nPage One",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Zoan",
+      "Power users",
+      "New World",
+      "Animal Kingdom Pirates"
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Shandian Warrior\nWyper",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "The Grand Line",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 138,
+    "name": "Land of Wano\nFranosuke",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "New World"
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Land of Wano\nUsohachi",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Blackbeard Pirates / Former Head Jailer of Impel Down\nShiryu",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "The Grand Line",
+      "Blackbeard Pirates"
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Whitebeard Pirates / 3rd Division Commander\nJozu",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Whitebeard Pirates",
+      "Paramecia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Whitebeard Pirates / 5th Division Commander\nVista",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+  "Whitebeard Pirates",
+  "The Grand Line"
+]
+  },
+  {
+    "id": 143,
+    "name": "Blackbeard Pirates / Helsman \"Champ\"\nJesus Burgess",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "The Grand Line",
+      "Blackbeard Pirates"
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Stealth Black\nSoba Mask",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Germa 66",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Germa 66 / Generalissimo\nVinsmoke Judge",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "New World",
+      "Germa 66",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Man Who Dreams of Becoming the King of the Pirates\nMonkey D. Luffy",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "primaryRole": "Attacker",
+"roles": ["Attacker", "Runner"],
+"role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 147,
+    "name": "The Strongest Creature Alive\nKaido",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Zoan",
+      "Captain",
+      "Power users",
+      "New World",
+      "Animal Kingdom Pirates"
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Animal Kingdom Pirates / Lead Performer\nQueen",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Zoan",
+      "Power users",
+      "New World",
+      "Animal Kingdom Pirates"
+    ]
+  },
+  {
+    "id": 149,
+    "name": "Animal Kingdom Pirates / Lead Performer\nJack",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Zoan",
+      "Fish-Man",
+      "Power users",
+      "New World",
+      "Animal Kingdom Pirates"
+    ]
+  },
+  {
+    "id": 150,
+    "name": "Kaido`s Son\nYamato",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Zoan",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Former Whitebeard Pirates / 16th Division Commander\nIzo",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Whitebeard Pirates",
+      "New World",
+      "Long-Range Normal Attacks",
+      "Kozuki Clan",
+      "Kozuki Clan Servant"
+    ]
+  },
+  {
+    "id": 152,
+    "name": "Kurozumi Spy\nKurozumi Kanjuro",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 153,
+    "name": "Roger Pirates / First Mate\nSilvers Rayleigh",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Roger Pirates",
+      "Ex-Roger Pirates"
+    ]
+  },
+  {
+    "id": 154,
+    "name": "Whole Cake Island\nJinbe",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Captain",
+      "Fish-Man",
+      "New World"
+    ]
+  },
+  {
+    "id": 155,
+    "name": "Big Mom Pirates / Crewmate\nCharlotte Pudding",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Long-Range Normal Attacks",
+      "Charlotte Family",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 156,
+    "name": "Whole Cake Island\nBrook",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 157,
+    "name": "Whole Cake Island\nNami",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 158,
+    "name": "Don Quixote Pirates / Officer\nMonet",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Don Quixote Family",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 159,
+    "name": "Don Quixote Pirates / Supreme Officer\nVergo",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Navy",
+      "Don Quixote Family",
+      "New World"
+    ]
+  },
+  {
+    "id": 160,
+    "name": "Don Quixote Pirates / Special Officer\nSugar",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Don Quixote Family",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 161,
+    "name": "Don Quixote Pirates / Captain\nDon Quixote Doflamingo",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Don Quixote Family",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "Long-Range Normal Attacks",
+      "Celestial Dragons",
+      "Former Celestial Dragons"
+    ]
+  },
+  {
+    "id": 162,
+    "name": "Don Quixote Pirates / Officer\nSeñor Pink",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Don Quixote Family",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 163,
+    "name": "Don Quixote Pirates / Servant Assassin\nBaby 5",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Don Quixote Family",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 164,
+    "name": "Navy HQ / Science Team Captain\nSentomaru",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 165,
+    "name": "Navy HQ / Master Chief Petty Officer\nKoby",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Navy",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 166,
+    "name": "Navy HQ / Fleet Admiral Akainu\n[Sakazuki]",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Navy",
+      "Logia",
+      "Power users",
+      "New World",
+      "Navy Admiral",
+      "Former Navy Admiral"
+    ]
+  },
+  {
+    "id": 167,
+    "name": "Land of Wano\nBonekichi",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 168,
+    "name": "Land of Wano\nOrobi",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 169,
+    "name": "Princess and Loyal Partner\nVivi & Karoo",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "The Grand Line",
+      "Alabasta Kingdom",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 170,
+    "name": "Lieutenant Royal Guard of Alabasta\nPell",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Zoan",
+      "Power users",
+      "The Grand Line",
+      "Alabasta Kingdom"
+    ]
+  },
+  {
+    "id": 171,
+    "name": "Baroque Works / Officer Agent\nMs. Goldenweek",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Baroque Works",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 172,
+    "name": "Baroque Works / Officer Agent\nMr. 3",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Baroque Works",
+      "Paramecia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 173,
+    "name": "Raid on Onigashima\nTrafalger Law",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 174,
+    "name": "Raid on Onigashima\nEustass Kid",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 175,
+    "name": "Impel Down / Prisoner\nBon Clay, aka Mr. 2",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Paramecia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 176,
+    "name": "Raid on Onigashima\nMonkey D. Luffy",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 177,
+    "name": "Enies Lobby\nNico Robin",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 178,
+    "name": "Monster Point\nTony Tony Chopper",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Zoan",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 179,
+    "name": "King of the Night\nCat Viper",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "New World",
+      "Kozuki Clan",
+      "Kozuki Clan Servant",
+      "Minks",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 180,
+    "name": "King of the Day\nDogstorm",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "New World",
+      "Kozuki Clan",
+      "Kozuki Clan Servant",
+      "Minks",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 181,
+    "name": "The Guardian of the Forest\nGaimon",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "East Blue"
+    ]
+  },
+  {
+    "id": 182,
+    "name": "Iron Pirate\nGeneral Franky",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "New World"
+    ]
+  },
+  {
+    "id": 183,
+    "name": "Savior\nGod Usopp",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 184,
+    "name": "Revolutionary Army / Officer\nKoala",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Revolutionary Army",
+      "New World"
+    ]
+  },
+  {
+    "id": 185,
+    "name": "Minks\nCarrot",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "New World",
+      "Minks"
+    ]
+  },
+  {
+    "id": 186,
+    "name": "Roger`s Rival\nEdward Newgate",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Whitebeard Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 187,
+    "name": "Hero of the Navy\nMonkey D. Garb",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy"
+    ]
+  },
+  {
+    "id": 188,
+    "name": "Kozuki Clan / Servant\nAshura Doji",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "New World",
+      "Kozuki Clan",
+      "Kozuki Clan Servant"
+    ]
+  },
+  {
+    "id": 189,
+    "name": "Kyoshiro Family / Boss\nNapping Kyoshiro",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "New World"
+    ]
+  },
+  {
+    "id": 190,
+    "name": "King of the Pirates\nGol D. Roger",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Captain",
+      "Roger Pirates",
+      "Ex-Roger Pirates"
+    ]
+  },
+  {
+    "id": 191,
+    "name": "Land of Wano\nChopperemon",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "Zoan",
+      "Power users",
+      "New World",
+      "Ninja"
+    ]
+  },
+  {
+    "id": 192,
+    "name": "Kozuki Clan / Servant\nKawamatsu",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Fish-Man",
+      "New World",
+      "Kozuki Clan",
+      "Kozuki Clan Servant"
+    ]
+  },
+  {
+    "id": 193,
+    "name": "Most Handsome Swordman in the Land of Wano\nKikunojo",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "New World",
+      "Kozuki Clan",
+      "Kozuki Clan Servant"
+    ]
+  },
+  {
+    "id": 194,
+    "name": "Daimyo of Kuri\nKozuki Oden",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Whitebeard Pirates",
+      "Kozuki Clan",
+      "Kozuki Clan Servant",
+      "Roger Pirates",
+      "Ex-Roger Pirates"
+    ]
+  },
+  {
+    "id": 195,
+    "name": "Fire Fist\nPortgaz D. Ace",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Whitebeard Pirates",
+      "Logia",
+      "Power users",
+      "The Grand Line",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 196,
+    "name": "Royal Wedding\nSanji",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 197,
+    "name": "The Billion-Fold World Trichiliocosm\nRoronoa Zoro",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 198,
+    "name": "Luffy & Law Pirate Alliance\nMonkey D. Luffy",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 199,
+    "name": "Kozuki Clan / Servant\nKin'emon",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Kozuki Clan",
+      "Kozuki Clan Servant"
+    ]
+  },
+  {
+    "id": 200,
+    "name": "Former Navy Admiral\nKuzan",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Logia",
+      "Power users",
+      "New World",
+      "Navy Admiral",
+      "Former Navy Admiral"
+    ]
+  },
+  {
+    "id": 201,
+    "name": "Punk Hazard\nSmoker (Chambres)",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Navy",
+      "New World",
+      "Chambres"
+    ]
+  },
+  {
+    "id": 202,
+    "name": "The Parmount War\nGecko Moria",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 203,
+    "name": "The Parmount War\nCrocodile",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Logia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 204,
+    "name": "Ghost Princess\nPerona",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 205,
+    "name": "Kuja Pirates / Captain\nBoa Hancock",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Kuja Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 206,
+    "name": "The Greatest Swordman in the World\nDracule Mihawk",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "New World"
+    ]
+  },
+  {
+    "id": 207,
+    "name": "Former World Government / Science Division Member\nCaesar Clown",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Logia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 208,
+    "name": "The Seven Warlords of the Sea\nBuggy",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Buggy's Delivery",
+      "Roger Pirates",
+      "Ex-Roger Pirates"
+    ]
+  },
+  {
+    "id": 209,
+    "name": "Superhuman\nCharlotte Katakuri",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Charlotte Family",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 210,
+    "name": "Hunger Pangs\nCharlotte Linlin",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Charlotte Family",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 211,
+    "name": "Don Quixote Family / Officer\nCorazon",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy",
+      "Don Quixote Family",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Celestial Dragons",
+      "Former Celestial Dragons"
+    ]
+  },
+  {
+    "id": 212,
+    "name": "The Undefeated Woman\nRebecca",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "New World",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 213,
+    "name": "Surgeon of Death\nTrafalger Law",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 214,
+    "name": "Amaru\nEneru",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Logia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 215,
+    "name": "CP0\nRob Lucci",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Cipher Pol",
+      "Zoan",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 216,
+    "name": "Land of Wano\nLuffytaro",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 217,
+    "name": "Land of Wano\nOnami",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 218,
+    "name": "Land of Wano\nX.Drake",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Zoan",
+      "Power users",
+      "New World",
+      "Worst Generation",
+      "Animal Kingdom Pirates"
+    ]
+  },
+  {
+    "id": 219,
+    "name": "New World\nEustass Kid",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 220,
+    "name": "Kid Pirates / Fighter\nKiller",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 221,
+    "name": "On-Air Pirates / Captain\nScratchmen Apoo",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 222,
+    "name": "Fallen Monk Pirates / Captain \"Mad Monk\"\nUrouge",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Captain",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 223,
+    "name": "Navy HQ / Fleet Admiral\nSengoku",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy",
+      "Zoan",
+      "Power users",
+      "The Grand Line",
+      "Navy Admiral",
+      "Former Navy Admiral"
+    ]
+  },
+  {
+    "id": 224,
+    "name": "The Pirate King`s Right Arm The Dark King\nSilvers Rayleigh",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "The Grand Line",
+      "Roger Pirates",
+      "Ex-Roger Pirates"
+    ]
+  },
+  {
+    "id": 225,
+    "name": "Gear Four / Snakeman\nMonkey D. Luffy",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 226,
+    "name": "Revolutoonary Army\nEmporio Ivankov",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Revolutionary Army",
+      "Paramecia",
+      "Power users",
+      "The Grand Line",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 227,
+    "name": "Impel Down / Warden\nMagellan",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 228,
+    "name": "Gerand Line Navel Base 5 / Vice Admiral\nSmoker",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Navy",
+      "Logia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 229,
+    "name": "Grand Line Naval Base 5 / Captain\nTashigi",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Navy",
+      "New World"
+    ]
+  },
+  {
+    "id": 230,
+    "name": "Navy HQ / Rear Admiral\nHina",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 231,
+    "name": "STAMPEDE\nDouglas Bullet",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Roger Pirates",
+      "Ex-Roger Pirates"
+    ]
+  },
+  {
+    "id": 232,
+    "name": "The King of the Snipers\nSniper King",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "The Grand Line",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 233,
+    "name": "CP9\nKaku",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Cipher Pol",
+      "Zoan",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 234,
+    "name": "CP9\nRob Lucci",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Cipher Pol",
+      "Zoan",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 235,
+    "name": "Luffy`s Brother\nSabo",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Revolutionary Army",
+      "Logia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 236,
+    "name": "Navy HQ / Admiral Fujitora\n[Issho]",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Navy Admiral",
+      "Former Navy Admiral"
+    ]
+  },
+  {
+    "id": 237,
+    "name": "Beautiful Pirates / Captain\nCavendish",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Captain",
+      "New World",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 238,
+    "name": "Barto Club / Captain\nBartolomeo",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 239,
+    "name": "The Parmount War\nMonkey D. Luffy",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 240,
+    "name": "The Four Emperors\nShanks",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Red-Haired Pirates",
+      "Captain",
+      "The Grand Line",
+      "Roger Pirates",
+      "Ex-Roger Pirates"
+    ]
+  },
+  {
+    "id": 241,
+    "name": "The Seven Warlords of the Sea\nMarshall D. Teach",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Logia",
+      "Captain",
+      "Power users",
+      "The Grand Line",
+      "Worst Generation",
+      "Blackbeard Pirates"
+    ]
+  },
+  {
+    "id": 242,
+    "name": "Navy HQ / Vice Admiral\nMonkey D. Garb",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 243,
+    "name": "Whitebeard Pirates / 1st Division Commander\nMarco",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Whitebeard Pirates",
+      "Zoan",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 244,
+    "name": "Son of the King of the Pirates\nPortgaz D. Ace",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Whitebeard Pirates",
+      "Logia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 245,
+    "name": "Animal Kingdom Pirates / Supreme Commander\nKaido",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Zoan",
+      "Captain",
+      "Power users",
+      "New World",
+      "Animal Kingdom Pirates"
+    ]
+  },
+  {
+    "id": 246,
+    "name": "Happy Holiday\nNico Robin",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 247,
+    "name": "Happy Holiday\nFranky",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "New World"
+    ]
+  },
+  {
+    "id": 248,
+    "name": "Happy Holiday\nTony Tony Chopper",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Zoan",
+      "Power users",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 249,
+    "name": "The Seven Warlords of the Sea\nBartholomew Kuma",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Revolutionary Army",
+      "Paramecia",
+      "Power users",
+      "The Grand Line",
+      "Long-Range Normal Attacks",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 250,
+    "name": "Germa 66\nVinsmoke Reiju",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "New World",
+      "Germa 66",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 251,
+    "name": "Firetank Pirates / Godfather\nCapone Bege",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 252,
+    "name": "Whole Cake Island\nSanji",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 253,
+    "name": "The Seven Warlords of the Sea\nJinbe",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Captain",
+      "Fish-Man",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 254,
+    "name": "Imprisoned Bride\nNami",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "The Grand Line",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 255,
+    "name": "Thriller Park Pirates / Mysterious Four\nPerona",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Paramecia",
+      "Power users",
+      "The Grand Line",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 256,
+    "name": "Legendary Samurai Zombie\nRyuma",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 257,
+    "name": "Ray of Hope\nNightmare Luffy",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 258,
+    "name": "Big Mom Pirates / \"Sweet 3\" General\nCharlotte Katakuri",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Charlotte Family",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 259,
+    "name": "Big Mom Pirates / Captain\nCharlotte Linlin",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Charlotte Family",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 260,
+    "name": "Land of Wano\nZorojuro",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 261,
+    "name": "Land of Wano\nBasil Hawkins",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Power users",
+      "New World",
+      "Worst Generation",
+      "Animal Kingdom Pirates"
+    ]
+  },
+  {
+    "id": 262,
+    "name": "Land of Wano\nTrafalgar Law",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 263,
+    "name": "The Seven Warlords of the Sea\nDon Quixote Doflamingo",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Don Quixote Family",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Celestial Dragons",
+      "Former Celestial Dragons",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 264,
+    "name": "Gear Four / Bounceman\nMonkey D. Luffy",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 265,
+    "name": "STAMPEDE\nSabo",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Revolutionary Army",
+      "Logia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 266,
+    "name": "STAMPEDE\nMonkey D. Luffy",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 267,
+    "name": "STAMPEDE\nSmoker",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy",
+      "Logia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 268,
+    "name": "Navy Infiltrator\nPortgaz D. Ace",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Whitebeard Pirates",
+      "Logia",
+      "Power users",
+      "The Grand Line",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 269,
+    "name": "Impel Down / Prisoner\nCrocodile",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Logia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 270,
+    "name": "Bikini\nBoa Hancock",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Kuja Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 271,
+    "name": "Bikini\nNami",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 272,
+    "name": "2 Years Later / Ship Carpenter\nFranky",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "New World"
+    ]
+  },
+  {
+    "id": 273,
+    "name": "2 Years Later / Musician\nBrook",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 274,
+    "name": "2 Years Later / Archaeologist\nNico Robin",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 275,
+    "name": "2 Years Later / Doctor\nTony Tony Chopper",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "Zoan",
+      "Power users",
+      "New World"
+    ]
+  },
+  {
+    "id": 276,
+    "name": "Navy HQ / Admiral Kizaru\n[Borsalino]",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Navy",
+      "Logia",
+      "Power users",
+      "The Grand Line",
+      "Navy Admiral",
+      "Former Navy Admiral"
+    ]
+  },
+  {
+    "id": 277,
+    "name": "Bonney Pirates / Captain\nJewelry Bonney",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 278,
+    "name": "2 Years Later / Sharp Shooter\nUsopp",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 279,
+    "name": "2 Years Later / Cook\nSanji",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 280,
+    "name": "Revolutoonary Army / Chief of Staff\nSabo",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Revolutionary Army",
+      "New World"
+    ]
+  },
+  {
+    "id": 281,
+    "name": "2 Years Later / Navigator\nNami",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "New World"
+    ]
+  },
+  {
+    "id": 282,
+    "name": "2 Years Later / Combatant\nRoronoa Zoro",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 283,
+    "name": "Alabasta / Princess\nNefeltari Vivi",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "The Grand Line",
+      "Alabasta Kingdom",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 284,
+    "name": "2 Years Later / Captain\nMonkey D. Luffy",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "New World",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 285,
+    "name": "Heart Pirates / Captain\nTrafalger Law",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 286,
+    "name": "Kid Pirates / Captain\nEustass Kid",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line",
+      "Worst Generation"
+    ]
+  },
+  {
+    "id": 287,
+    "name": "Bellamy Pirates / Captain\nBellamy",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 288,
+    "name": "Arm Point\nTony Tony Chopper",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Zoan",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 289,
+    "name": "108 Pound Phoenix\nRoronoa Zoro",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "The Grand Line",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 290,
+    "name": "The Seven Warlords of the Sea\nGecko Moria",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 291,
+    "name": "The Seven Warlords of the Sea\nHancock",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Baroque Works",
+      "Paramecia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 292,
+    "name": "Baroque Works / Vice President\nMs. All Sunday",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Baroque Works",
+      "Paramecia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 293,
+    "name": "Baroque Works / Officer Agent\nBon Clay, aka Mr. 2",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Baroque Works",
+      "Paramecia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 294,
+    "name": "Navy HQ / Admiral Aokiji\n[Kuzan]",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy",
+      "Logia",
+      "Power users",
+      "The Grand Line",
+      "Navy Admiral",
+      "Former Navy Admiral"
+    ]
+  },
+  {
+    "id": 295,
+    "name": "Navy HQ / Admiral Akainu\n[Sakazuki]",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Navy",
+      "Logia",
+      "Power users",
+      "New World",
+      "Navy Admiral",
+      "Former Navy Admiral"
+    ]
+  },
+  {
+    "id": 296,
+    "name": "Whitebeard Pirates / 2nd Division Commander\nPortgaz D. Ace",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Whitebeard Pirates",
+      "Logia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 297,
+    "name": "Whitebeard Pirates / Captain Whitebeard\nEdward Newgate",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Whitebeard Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 298,
+    "name": "Kami\nEneru",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Logia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 299,
+    "name": "The Seven Warlords of the Sea\nCrocodile",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea",
+      "Baroque Works",
+      "Logia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 300,
+    "name": "Peacock Slasher\nNefeltari Vivi",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "The Grand Line",
+      "Alabasta Kingdom",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 301,
+    "name": "Gum-Gum Storm\nMonkey D. Luffy",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 302,
+    "name": "Drum Kingdom / Former Ruler\nWapol",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line",
+      "Royalty",
+      "Former Royalty"
+    ]
+  },
+  {
+    "id": 303,
+    "name": "Navy HQ / Captain\nSmoker",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Navy",
+      "Logia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 304,
+    "name": "30 Million Berry Bounty\nMonkey D. Luffy",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 305,
+    "name": "Arlong Pirates / Captain\nArlong",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "East Blue",
+      "Captain",
+      "Fish-Man"
+    ]
+  },
+  {
+    "id": 306,
+    "name": "The Seven Warlords of the Sea\nDracule Mihawk",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "East Blue",
+      "The Seven Warlords of the Sea",
+      "Former Warlords of the Sea"
+    ]
+  },
+  {
+    "id": 307,
+    "name": "Girl from Syrub Village\nKaya",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "East Blue"
+    ]
+  },
+  {
+    "id": 308,
+    "name": "Red-Haired Pirates / Sharp Shooter\nYasopp",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "East Blue",
+      "Red-Haired Pirates",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 309,
+    "name": "Red-Haired Pirates / Captain\nShanks",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "East Blue",
+      "Red-Haired Pirates",
+      "Captain",
+      "Roger Pirates",
+      "Ex-Roger Pirates"
+    ]
+  },
+  {
+    "id": 310,
+    "name": "Obe-Sword Style Iai Lion Song\nRoronoa Zoro",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 311,
+    "name": "Veau Vengeance\nSanji",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 312,
+    "name": "5t Hammer\nUsopp",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 313,
+    "name": "Climate Baton\nNami",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "The Grand Line",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 314,
+    "name": "Baroque Works / Frontier Agents\nMs. Wednesday",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Baroque Works",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 315,
+    "name": "Slip-Slip Fruit\nAlvida",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 316,
+    "name": "Navy HQ / Master Chief Petty Officer\nTashigi",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Navy",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 317,
+    "name": "Arlong Pirates / Officer\nChoo",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "East Blue",
+      "Fish-Man",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 318,
+    "name": "Arlong Pirates / Officer\nKuroobi",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "East Blue",
+      "Fish-Man"
+    ]
+  },
+  {
+    "id": 319,
+    "name": "Arlong Pirates / Officer\nHatchan",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "East Blue",
+      "Fish-Man"
+    ]
+  },
+  {
+    "id": 320,
+    "name": "Krieg`s Pirate Armada / Admiral\nDon Krieg",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "East Blue",
+      "Captain"
+    ]
+  },
+  {
+    "id": 321,
+    "name": "Krieg`s Pirate Armada / Battle Commander\nGin",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "East Blue"
+    ]
+  },
+  {
+    "id": 322,
+    "name": "Baratie / Head Chef\nZeff",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "East Blue"
+    ]
+  },
+  {
+    "id": 323,
+    "name": "Black Cat Pirates / Former Captain\nCaptain Kuro",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "East Blue",
+      "Captain"
+    ]
+  },
+  {
+    "id": 324,
+    "name": "Buggy Pirates / Captain\nBuggy",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "East Blue",
+      "Paramecia",
+      "Captain",
+      "Power users",
+      "Roger Pirates",
+      "Ex-Roger Pirates"
+    ]
+  },
+  {
+    "id": 325,
+    "name": "Bounty Hunter\nJohnny",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "East Blue"
+    ]
+  },
+  {
+    "id": 326,
+    "name": "Bounty Hunter\nYosaku",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "East Blue"
+    ]
+  },
+  {
+    "id": 327,
+    "name": "Black Cat Pirates / Guard\nButchie",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "East Blue"
+    ]
+  },
+  {
+    "id": 328,
+    "name": "Black Cat Pirates / Captain\nDjango",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "East Blue",
+      "Captain"
+    ]
+  },
+  {
+    "id": 329,
+    "name": "Buggy Pirates / Chief of Staff\nCabaji",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "East Blue"
+    ]
+  },
+  {
+    "id": 330,
+    "name": "Navy Captain\nMorgan",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "East Blue",
+      "Navy"
+    ]
+  },
+  {
+    "id": 331,
+    "name": "The Idiot Son\nHelmeppo",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "East Blue",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 332,
+    "name": "Alvida Pirates / Captain\nAlvida",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "East Blue",
+      "Captain"
+    ]
+  },
+  {
+    "id": 333,
+    "name": "Chore Boy\nKoby",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "East Blue"
+    ]
+  },
+  {
+    "id": 334,
+    "name": "Mountain Bandits / Leader\nHiguma the Bear",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "East Blue"
+    ]
+  },
+  {
+    "id": 335,
+    "name": "Straw Hat Pirates / Musician\nBrook",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 336,
+    "name": "Straw Hat Pirates / Ship Carpenter\nFranky",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "Straw Hat Pirates",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 337,
+    "name": "Straw Hat Pirates / Archaeologist\nNico Robin",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 338,
+    "name": "Straw Hat Pirates / Doctor\nTony Tony Chopper",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "Straw Hat Pirates",
+      "Zoan",
+      "Power users",
+      "The Grand Line"
+    ]
+  },
+  {
+    "id": 339,
+    "name": "Straw Hat Pirates / Cook\nSanji",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "East Blue",
+      "Straw Hat Pirates"
+    ]
+  },
+  {
+    "id": 340,
+    "name": "Straw Hat Pirates / Sharp Shooter\nUsopp",
+    "primaryColor": "Blue",
+    "colors": [
+      "Blue"
+    ],
+    "color": "Blue",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "East Blue",
+      "Straw Hat Pirates",
+      "Long-Range Normal Attacks"
+    ]
+  },
+  {
+    "id": 341,
+    "name": "Straw Hat Pirates / Navigator\nNami",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Runner",
+    "power": 0,
+    "tags": [
+      "Runner(s)",
+      "East Blue",
+      "Straw Hat Pirates"
+    ]
+  },
+  {
+    "id": 342,
+    "name": "Straw Hat Pirates / Combatant\nRoronoa Zoro",
+    "primaryColor": "Green",
+    "colors": [
+      "Green"
+    ],
+    "color": "Green",
+    "role": "Defender",
+    "power": 0,
+    "tags": [
+      "Defender(s)",
+      "East Blue",
+      "Straw Hat Pirates"
+    ]
+  },
+  {
+    "id": 343,
+    "name": "Straw Hat Pirates / Captain\nMonkey D. Luffy",
+    "primaryColor": "Red",
+    "colors": [
+      "Red"
+    ],
+    "color": "Red",
+    "role": "Attacker",
+    "power": 0,
+    "tags": [
+      "Attacker(s)",
+      "East Blue",
+      "Straw Hat Pirates",
+      "Paramecia",
+      "Captain",
+      "Power users"
+    ]
+  }
+]
