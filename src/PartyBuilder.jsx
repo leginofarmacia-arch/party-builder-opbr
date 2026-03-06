@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import charactersData from "./data/characters.json";
+import { getSupportPercent } from "./utils/getSupportPercent";
 
 /* =============================
    CONFIG
@@ -91,6 +92,10 @@ const TAG_ALIASES = {
     "The Seven Warlords of the Sea/Former Warlords of the Sea",
   "Former Warlords of the Sea":
     "The Seven Warlords of the Sea/Former Warlords of the Sea",
+  "Celestial Dragons": 
+   "Celestial Dragons/Former Celestial Dragons",
+  "Former Celestial Dragons":
+   "Celestial Dragons/Former Celestial Dragons"
 };
 
 function canonicalizeTag(tag) {
@@ -305,6 +310,7 @@ function SupportBonusBar({ partyColor, filled, total = 10, bonusPercent }) {
 function ActiveCard({
   title,
   char,
+  supportPercent,
   selected,
   highlight,
   onClick,
@@ -356,6 +362,10 @@ function ActiveCard({
           </div>
 
           <div className="mt-2 text-sm font-extrabold leading-tight">{name}</div>
+         
+          <div className="mt-1 text-sm font-bold text-white">
+  +{supportPercent?.toFixed(1) || "0.0"}%
+</div>
 
           <div className="text-xs text-white/70 mt-1">
             {role || "—"} • {col || "—"}
@@ -510,6 +520,40 @@ export default function PartyBuilder() {
     const sup = support.reduce((sum, c) => sum + (c?.power || 0), 0);
     return a1 + a2 + sup;
   }, [active1, active2, support]);
+  
+  const supportPercent1 = useMemo(() => {
+  if (!active1) return 0;
+
+  return support.reduce((sum, c) => {
+    if (!c) return sum;
+
+    const result = getSupportPercent({
+      baseStars: c.baseStars,
+      supportColor: c.primaryColor || c.color,
+      boostTier: 4,
+      activeColor: active1.primaryColor || active1.color,
+    });
+
+    return sum + (result?.value || 0);
+  }, 0);
+}, [active1, support]);
+
+const supportPercent2 = useMemo(() => {
+  if (!active2) return 0;
+
+  return support.reduce((sum, c) => {
+    if (!c) return sum;
+
+    const result = getSupportPercent({
+      baseStars: c.baseStars,
+      supportColor: c.primaryColor || c.color,
+      boostTier: 4,
+      activeColor: active2.primaryColor || active2.color,
+    });
+
+    return sum + (result?.value || 0);
+  }, 0);
+}, [active2, support]);
 
   const supportTagLevels = useMemo(() => {
     const counts = new Map();
@@ -917,10 +961,21 @@ export default function PartyBuilder() {
             <SupportBonusBar partyColor={partyColor} filled={sameColorCount} total={10} bonusPercent={bonus} />
 
             {/* Active: responsive dentro 520 (niente width fisse) */}
+            {/* TOTAL PARTY POWER */}
+<div className="flex justify-between items-center mb-2 px-1">
+  <div className="font-bold text-sm">
+    Total Party Power
+  </div>
+
+  <div className="font-bold text-2xl">
+    {totalPower}
+  </div>
+</div>
             <div className="grid grid-cols-2 gap-2">
               <ActiveCard
                 title="Battle Character 1"
-                char={active1}
+                 char={active1}
+                 supportPercent={supportPercent1}
                 selected={mode === "active1"}
                 highlight={dragPayload ? active1Highlight : false}
                 onClick={() => setState({ ...state, mode: "active1" })}
@@ -939,6 +994,7 @@ export default function PartyBuilder() {
               <ActiveCard
                 title="Battle Character 2"
                 char={active2}
+                supportPercent={supportPercent2}
                 selected={mode === "active2"}
                 highlight={dragPayload ? active2Highlight : false}
                 onClick={() => setState({ ...state, mode: "active2" })}

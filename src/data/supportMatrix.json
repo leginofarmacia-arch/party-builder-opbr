@@ -1,0 +1,355 @@
+{
+  "4": {
+    "Blue": {
+      "2": {
+        "Blue": { "value": 16.1, "status": "verified" },
+        "Red": { "value": 13.4, "status": "verified" },
+        "Green": { "value": 13.4, "status": "verified" },
+        "Dark": { "value": 14.7, "status": "verified" },
+        "Light": { "value": 14.7, "status": "verified" }
+      },
+      "3": {
+        "Blue": { "value": 16.9, "status": "verified" },
+        "Red": { "value": 14.1, "status": "verified" },
+        "Green": { "value": 14.1, "status": "verified" },
+        "Dark": { "value": 15.5, "status": "verified" },
+        "Light": { "value": 15.5, "status": "verified" }
+      },
+      "4": {
+        "Blue": { "value": 17.8, "status": "verified" },
+        "Red": { "value": 14.8, "status": "verified" },
+        "Green": { "value": 14.8, "status": "verified" },
+        "Dark": { "value": 16.3, "status": "verified" },
+        "Light": { "value": 16.3, "status": "verified" }
+      }
+    },
+    "Red": {
+      "2": {
+        "Blue": { "value": 13.4, "status": "verified" },
+        "Red": { "value": 16.1, "status": "verified" },
+        "Green": { "value": 13.4, "status": "verified" },
+        "Dark": { "value": 14.7, "status": "verified" },
+        "Light": { "value": 14.7, "status": "verified" }
+      },
+      "3": {
+        "Blue": { "value": 14.1, "status": "verified" },
+        "Red": { "value": 16.9, "status": "verified" },
+        "Green": { "value": 14.1, "status": "verified" },
+        "Dark": { "value": 15.5, "status": "verified" },
+        "Light": { "value": 15.5, "status": "verified" }
+      },
+      "4": {
+        "Blue": { "value": 14.8, "status": "verified" },
+        "Red": { "value": 17.8, "status": "verified" },
+        "Green": { "value": 14.8, "status": "verified" },
+        "Dark": { "value": 16.3, "status": "verified" },
+        "Light": { "value": 16.3, "status": "verified" }
+      }
+    },
+    "Green": {
+      "2": {
+        "Blue": { "value": 13.4, "status": "verified" },
+        "Red": { "value": 13.4, "status": "verified" },
+        "Green": { "value": 16.1, "status": "verified" },
+        "Dark": { "value": 14.7, "status": "verified" },
+        "Light": { "value": 14.7, "status": "verified" }
+      },
+      "3": {
+        "Blue": { "value": 14.1, "status": "verified" },
+        "Red": { "value": 14.1, "status": "verified" },
+        "Green": { "value": 16.9, "status": "verified" },
+        "Dark": { "value": 15.5, "status": "verified" },
+        "Light": { "value": 15.5, "status": "verified" }
+      },
+      "4": {
+        "Blue": { "value": 14.8, "status": "verified" },
+        "Red": { "value": 14.8, "status": "verified" },
+        "Green": { "value": 17.8, "status": "verified" },
+        "Dark": { "value": 16.3, "status": "verified" },
+        "Light": { "value": 16.3, "status": "verified" }
+      }
+    },
+    "Dark": {
+      "2": {
+        "Blue": { "value": 14.7, "status": "verified" },
+        "Red": { "value": 14.7, "status": "verified" },
+        "Green": { "value": 14.7, "status": "verified" },
+        "Dark": { "value": 16.8, "status": "verified" },
+        "Light": { "value": 13.4, "status": "verified" }
+      },
+      "3": {
+        "Blue": { "value": 15.5, "status": "verified" },
+        "Red": { "value": 15.5, "status": "verified" },
+        "Green": { "value": 15.5, "status": "verified" },
+        "Dark": { "value": 17.7, "status": "verified" },
+        "Light": { "value": 14.1, "status": "verified" }
+      },
+      "4": {
+        "Blue": { "value": 16.3, "status": "verified" },
+        "Red": { "value": 16.3, "status": "verified" },
+        "Green": { "value": 16.3, "status": "verified" },
+        "Dark": { "value": 18.6, "status": "verified" },
+        "Light": { "value": 14.8, "status": "verified" }
+      }
+    },
+    "Light": {
+      "2": {
+        "Blue": { "value": 14.7, "status": "verified" },
+        "Red": { "value": 14.7, "status": "verified" },
+        "Green": { "value": 14.7, "status": "verified" },
+        "Dark": { "value": 13.4, "status": "verified" },
+        "Light": { "value": 16.8, "status": "verified" }
+      },
+      "3": {
+        "Blue": { "value": 15.5, "status": "verified" },
+        "Red": { "value": 15.5, "status": "verified" },
+        "Green": { "value": 15.5, "status": "verified" },
+        "Dark": { "value": 14.1, "status": "verified" },
+        "Light": { "value": 17.7, "status": "verified" }
+      },
+      "4": {
+        "Blue": { "value": 16.3, "status": "verified" },
+        "Red": { "value": 16.3, "status": "verified" },
+        "Green": { "value": 16.3, "status": "verified" },
+        "Dark": { "value": 14.8, "status": "verified" },
+        "Light": { "value": 18.6, "status": "verified" }
+      }
+    }
+  },
+
+  "3": {
+    "Blue": {
+      "2": {
+        "Blue": { "value": 15.2, "status": "verified" },
+        "Red": { "value": 12.7, "status": "verified" },
+        "Green": { "value": 12.7, "status": "verified" },
+        "Dark": { "value": 13.9, "status": "verified" },
+        "Light": { "value": 13.9, "status": "verified" }
+      },
+      "3": {
+        "Blue": { "value": 16.0, "status": "verified" },
+        "Red": { "value": 13.3, "status": "verified" },
+        "Green": { "value": 13.3, "status": "verified" },
+        "Dark": { "value": 14.7, "status": "verified" },
+        "Light": { "value": 14.7, "status": "verified" }
+      },
+      "4": {
+        "Blue": { "value": 16.8, "status": "verified" },
+        "Red": { "value": 14.0, "status": "verified" },
+        "Green": { "value": 14.0, "status": "verified" },
+        "Dark": { "value": 15.4, "status": "verified" },
+        "Light": { "value": 15.4, "status": "verified" }
+      }
+    },
+    "Red": {
+      "2": {
+        "Blue": { "value": 12.7, "status": "verified" },
+        "Red": { "value": 15.2, "status": "verified" },
+        "Green": { "value": 12.7, "status": "verified" },
+        "Dark": { "value": 13.9, "status": "verified" },
+        "Light": { "value": 13.9, "status": "verified" }
+      },
+      "3": {
+        "Blue": { "value": 13.3, "status": "verified" },
+        "Red": { "value": 16.0, "status": "verified" },
+        "Green": { "value": 13.3, "status": "verified" },
+        "Dark": { "value": 14.7, "status": "verified" },
+        "Light": { "value": 14.7, "status": "verified" }
+      },
+      "4": {
+        "Blue": { "value": 14.0, "status": "verified" },
+        "Red": { "value": 16.8, "status": "verified" },
+        "Green": { "value": 14.0, "status": "verified" },
+        "Dark": { "value": 15.4, "status": "verified" },
+        "Light": { "value": 15.4, "status": "verified" }
+      }
+    },
+    "Green": {
+      "2": {
+        "Blue": { "value": 12.7, "status": "verified" },
+        "Red": { "value": 12.7, "status": "verified" },
+        "Green": { "value": 15.2, "status": "verified" },
+        "Dark": { "value": 13.9, "status": "verified" },
+        "Light": { "value": 13.9, "status": "verified" }
+      },
+      "3": {
+        "Blue": { "value": 13.3, "status": "verified" },
+        "Red": { "value": 13.3, "status": "verified" },
+        "Green": { "value": 16.0, "status": "verified" },
+        "Dark": { "value": 14.7, "status": "verified" },
+        "Light": { "value": 14.7, "status": "verified" }
+      },
+      "4": {
+        "Blue": { "value": 14.0, "status": "verified" },
+        "Red": { "value": 14.0, "status": "verified" },
+        "Green": { "value": 16.8, "status": "verified" },
+        "Dark": { "value": 15.4, "status": "verified" },
+        "Light": { "value": 15.4, "status": "verified" }
+      }
+    },
+    "Dark": {
+      "2": {
+        "Blue": { "value": null, "status": "na" },
+        "Red": { "value": null, "status": "na" },
+        "Green": { "value": null, "status": "na" },
+        "Dark": { "value": null, "status": "na" },
+        "Light": { "value": null, "status": "na" }
+      },
+      "3": {
+        "Blue": { "value": null, "status": "na" },
+        "Red": { "value": null, "status": "na" },
+        "Green": { "value": null, "status": "na" },
+        "Dark": { "value": null, "status": "na" },
+        "Light": { "value": null, "status": "na" }
+      },
+      "4": {
+        "Blue": { "value": null, "status": "na" },
+        "Red": { "value": null, "status": "na" },
+        "Green": { "value": null, "status": "na" },
+        "Dark": { "value": null, "status": "na" },
+        "Light": { "value": null, "status": "na" }
+      }
+    },
+    "Light": {
+      "2": {
+        "Blue": { "value": 13.9, "status": "estimated" },
+        "Red": { "value": 13.9, "status": "estimated" },
+        "Green": { "value": 13.9, "status": "estimated" },
+        "Dark": { "value": 13.2, "status": "estimated" },
+        "Light": { "value": 15.8, "status": "estimated" }
+      },
+      "3": {
+        "Blue": { "value": null, "status": "na" },
+        "Red": { "value": null, "status": "na" },
+        "Green": { "value": null, "status": "na" },
+        "Dark": { "value": null, "status": "na" },
+        "Light": { "value": null, "status": "na" }
+      },
+      "4": {
+        "Blue": { "value": 15.7, "status": "estimated" },
+        "Red": { "value": 15.7, "status": "estimated" },
+        "Green": { "value": 15.7, "status": "estimated" },
+        "Dark": { "value": 14.0, "status": "estimated" },
+        "Light": { "value": 17.5, "status": "estimated" }
+      }
+    }
+  },
+
+  "2": {
+    "Blue": {
+      "2": {
+        "Blue": { "value": 14.3, "status": "verified" },
+        "Red": { "value": null, "status": "missing" },
+        "Green": { "value": null, "status": "missing" },
+        "Dark": { "value": null, "status": "missing" },
+        "Light": { "value": null, "status": "missing" }
+      },
+      "3": {
+        "Blue": { "value": 15.1, "status": "verified" },
+        "Red": { "value": null, "status": "missing" },
+        "Green": { "value": null, "status": "missing" },
+        "Dark": { "value": null, "status": "missing" },
+        "Light": { "value": null, "status": "missing" }
+      },
+      "4": {
+        "Blue": { "value": 15.8, "status": "verified" },
+        "Red": { "value": 13.2, "status": "verified" },
+        "Green": { "value": 13.2, "status": "verified" },
+        "Dark": { "value": 14.5, "status": "verified" },
+        "Light": { "value": 14.5, "status": "verified" }
+      }
+    },
+    "Red": {
+      "2": {
+        "Blue": { "value": null, "status": "missing" },
+        "Red": { "value": null, "status": "missing" },
+        "Green": { "value": null, "status": "missing" },
+        "Dark": { "value": null, "status": "missing" },
+        "Light": { "value": null, "status": "missing" }
+      },
+      "3": {
+        "Blue": { "value": null, "status": "missing" },
+        "Red": { "value": null, "status": "missing" },
+        "Green": { "value": null, "status": "missing" },
+        "Dark": { "value": null, "status": "missing" },
+        "Light": { "value": null, "status": "missing" }
+      },
+      "4": {
+        "Blue": { "value": 13.2, "status": "verified" },
+        "Red": { "value": 15.8, "status": "verified" },
+        "Green": { "value": 13.2, "status": "verified" },
+        "Dark": { "value": 14.5, "status": "verified" },
+        "Light": { "value": 14.5, "status": "verified" }
+      }
+    },
+    "Green": {
+      "2": {
+        "Blue": { "value": null, "status": "missing" },
+        "Red": { "value": null, "status": "missing" },
+        "Green": { "value": null, "status": "missing" },
+        "Dark": { "value": null, "status": "missing" },
+        "Light": { "value": null, "status": "missing" }
+      },
+      "3": {
+        "Blue": { "value": null, "status": "missing" },
+        "Red": { "value": null, "status": "missing" },
+        "Green": { "value": null, "status": "missing" },
+        "Dark": { "value": null, "status": "missing" },
+        "Light": { "value": null, "status": "missing" }
+      },
+      "4": {
+        "Blue": { "value": 13.2, "status": "verified" },
+        "Red": { "value": 13.2, "status": "verified" },
+        "Green": { "value": 15.8, "status": "verified" },
+        "Dark": { "value": 14.5, "status": "verified" },
+        "Light": { "value": 14.5, "status": "verified" }
+      }
+    },
+    "Dark": {
+      "2": {
+        "Blue": { "value": null, "status": "na" },
+        "Red": { "value": null, "status": "na" },
+        "Green": { "value": null, "status": "na" },
+        "Dark": { "value": null, "status": "na" },
+        "Light": { "value": null, "status": "na" }
+      },
+      "3": {
+        "Blue": { "value": null, "status": "na" },
+        "Red": { "value": null, "status": "na" },
+        "Green": { "value": null, "status": "na" },
+        "Dark": { "value": null, "status": "na" },
+        "Light": { "value": null, "status": "na" }
+      },
+      "4": {
+        "Blue": { "value": null, "status": "na" },
+        "Red": { "value": null, "status": "na" },
+        "Green": { "value": null, "status": "na" },
+        "Dark": { "value": null, "status": "na" },
+        "Light": { "value": null, "status": "na" }
+      }
+    },
+    "Light": {
+      "2": {
+        "Blue": { "value": null, "status": "missing" },
+        "Red": { "value": null, "status": "missing" },
+        "Green": { "value": null, "status": "missing" },
+        "Dark": { "value": 11.9, "status": "estimated" },
+        "Light": { "value": null, "status": "missing" }
+      },
+      "3": {
+        "Blue": { "value": null, "status": "na" },
+        "Red": { "value": null, "status": "na" },
+        "Green": { "value": null, "status": "na" },
+        "Dark": { "value": null, "status": "na" },
+        "Light": { "value": null, "status": "na" }
+      },
+      "4": {
+        "Blue": { "value": 14.5, "status": "verified" },
+        "Red": { "value": 14.5, "status": "verified" },
+        "Green": { "value": 14.5, "status": "verified" },
+        "Dark": { "value": 13.2, "status": "verified" },
+        "Light": { "value": 16.5, "status": "verified" }
+      }
+    }
+  }
+}
