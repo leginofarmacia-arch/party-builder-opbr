@@ -927,13 +927,15 @@ const supportPercent2 = useMemo(() => {
     return "";
   }, [mode]);
 
-  return (
+return (
     <div className="min-h-screen bg-[#1f2328] text-white">
       {/* TOP BAR */}
       <div className="border-b border-black/80 bg-black/35">
         <div className="flex items-center justify-between px-3 py-2">
           <div className="flex items-center gap-3">
-            <div className="text-sm font-extrabold tracking-wide">PARTY BUILDER OPBR (WEB)</div>
+            <div className="text-sm font-extrabold tracking-wide">
+              PARTY BUILDER OPBR (WEB)
+            </div>
 
             <div className="flex gap-1 flex-wrap">
               {Array.from({ length: PARTY_COUNT }).map((_, i) => (
@@ -951,45 +953,45 @@ const supportPercent2 = useMemo(() => {
               ))}
             </div>
           </div>
-
-          <div className="text-xs text-white/70">
-            Total Party Power: <span className="font-semibold">{totalPower}</span>
-          </div>
         </div>
       </div>
 
       {/* MAIN */}
       <div className="mx-auto max-w-[1480px] px-3 py-3">
-        {/* ✅ ROSTER SEMPRE A DESTRA: layout fisso 2 colonne */}
         <div className="grid grid-cols-[520px_minmax(0,1fr)] gap-3">
           {/* LEFT = PARTY */}
           <div className="space-y-3 min-w-0">
-            <SupportBonusBar partyColor={partyColor} filled={sameColorCount} total={10} bonusPercent={bonus} />
+            <SupportBonusBar
+              partyColor={partyColor}
+              filled={sameColorCount}
+              total={10}
+              bonusPercent={bonus}
+            />
 
-            {/* Active: responsive dentro 520 (niente width fisse) */}
+            {/* PARTY NAME */}
+            <div className="mb-2">
+              <input
+                type="text"
+                value={partyName}
+                onChange={(e) => setPartyName(e.target.value)}
+                placeholder="Enter party name..."
+                className="w-full bg-black/40 text-white text-center font-bold text-lg px-2 py-1 rounded border border-white/20"
+              />
+            </div>
 
-{/* PARTY NAME */}
-<div className="mb-2">
-  <input
-    type="text"
-    value={partyName}
-    onChange={(e) => setPartyName(e.target.value)}
-    placeholder="Enter party name..."
-    className="w-full bg-black/40 text-white text-center font-bold text-lg px-2 py-1 rounded border border-white/20"
-  />
-</div>
+            {/* Active */}
             <div className="grid grid-cols-2 gap-2">
               <ActiveCard
                 title="Battle Character 1"
-                 char={active1}
-                 supportPercent={supportPercent1}
+                char={active1}
+                supportPercent={supportPercent1}
                 selected={mode === "active1"}
                 highlight={dragPayload ? active1Highlight : false}
                 onClick={() => setState({ ...state, mode: "active1" })}
                 onDropPayload={(payload) => {
-  handleDropToActive(1, payload || dragging);
-  setDragging(null);
-}}
+                  handleDropToActive(1, payload || dragging);
+                  setDragging(null);
+                }}
                 onDragStartPayload={() => {
                   const p = { type: "active", slot: 1 };
                   setDragging(p);
@@ -1005,10 +1007,10 @@ const supportPercent2 = useMemo(() => {
                 selected={mode === "active2"}
                 highlight={dragPayload ? active2Highlight : false}
                 onClick={() => setState({ ...state, mode: "active2" })}
-              onDropPayload={(payload) => {
-  handleDropToActive(2, payload || dragging);
-  setDragging(null);
-}}
+                onDropPayload={(payload) => {
+                  handleDropToActive(2, payload || dragging);
+                  setDragging(null);
+                }}
                 onDragStartPayload={() => {
                   const p = { type: "active", slot: 2 };
                   setDragging(p);
@@ -1026,7 +1028,6 @@ const supportPercent2 = useMemo(() => {
                 <div className="text-xs text-white/60">{selectedHint}</div>
               </div>
 
-              {/* ✅ resta 10 slot, ma si adatta al 520 senza sforare */}
               <div
                 className="mt-2 grid gap-2"
                 style={{ gridTemplateColumns: "repeat(auto-fit, minmax(96px, 1fr))" }}
@@ -1062,7 +1063,9 @@ const supportPercent2 = useMemo(() => {
               </div>
 
               <div className="max-h-[230px] overflow-auto space-y-1 pr-1">
-                {supportTagLevels.length === 0 && <div className="text-xs text-white/50">No tags active</div>}
+                {supportTagLevels.length === 0 && (
+                  <div className="text-xs text-white/50">No tags active</div>
+                )}
                 {supportTagLevels.map(({ tag, count, level, next }) => (
                   <div key={tag} className="bg-black/20 border border-black/50 rounded px-2 py-1">
                     <div className="flex items-center justify-between">
@@ -1157,7 +1160,10 @@ const supportPercent2 = useMemo(() => {
 
                 <div className="w-3" />
 
-                <QuickButton active={false} onClick={() => setRosterFilters({ color: "All", role: "All" })}>
+                <QuickButton
+                  active={false}
+                  onClick={() => setRosterFilters({ color: "All", role: "All" })}
+                >
                   Clear filters
                 </QuickButton>
               </div>
