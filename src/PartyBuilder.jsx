@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import charactersData from "./data/characters.json";
 import { getSupportPercent } from "./utils/getSupportPercent";
+import { getCharacterIcon } from "./utils/getCharacterIcon";
 
 /* =============================
    CONFIG
@@ -363,7 +364,16 @@ function ActiveCard({
 
         <div className="p-2">
           <div className="h-[128px] bg-[#40464e] relative flex items-center justify-center text-white/60 text-xs border border-black/60 rounded">
-            {char ? "NO ICON" : "EMPTY"}
+            {char ? (
+  <img
+    src={getCharacterIcon(char.id)}
+    alt={char.name}
+    className="w-full h-full object-cover"
+    draggable={false}
+  />
+) : (
+  "EMPTY"
+)}
             <MiniOverlay char={char} />
           </div>
 
@@ -418,7 +428,16 @@ function SupportTile({
         tabIndex={0}
       >
         <div className="h-[86px] bg-[#40464e] relative flex items-center justify-center text-white/60 text-[10px] border-b border-black/60">
-          {char ? "NO ICON" : "+"}
+          {char ? (
+  <img
+    src={getCharacterIcon(char.id)}
+    alt={char.name}
+    className="w-full h-full object-cover"
+    draggable={false}
+  />
+) : (
+  "+"
+)}
           <MiniOverlay char={char} />
         </div>
 
@@ -478,7 +497,12 @@ function RosterTile({ char, selected, disabled, onClick, onDragStart, onDragEnd 
       tabIndex={0}
     >
       <div className="h-20 bg-[#40464e] relative flex items-center justify-center text-white/60 text-[10px] border-b border-black/60">
-        NO ICON
+        <img
+  src={getCharacterIcon(char.id)}
+  alt={char.name}
+  className="w-full h-full object-cover"
+  draggable={false}
+/>
         <MiniOverlay char={char} />
       </div>
 
