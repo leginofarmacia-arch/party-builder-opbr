@@ -967,7 +967,7 @@ const supportPercent2 = useMemo(() => {
             <SupportBonusBar partyColor={partyColor} filled={sameColorCount} total={10} bonusPercent={bonus} />
 
             {/* Active: responsive dentro 520 (niente width fisse) */}
-            {/* TOTAL PARTY POWER */}
+
 {/* PARTY NAME */}
 <div className="mb-2">
   <input
