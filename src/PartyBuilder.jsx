@@ -131,6 +131,8 @@ function emptyParty() {
     active1: null,
     active2: null,
     support: Array.from({ length: SUPPORT_SLOTS }, () => null),
+    supportBoosts: Array.from({ lenght:
+      SUPPORT_SLOTS}, () => 4),
   };
 }
 
@@ -151,14 +153,18 @@ function loadState() {
     if (!parsed.parties || !Array.isArray(parsed.parties)) throw new Error("bad");
     if (parsed.parties.length !== PARTY_COUNT) throw new Error("bad");
 
-    parsed.parties = parsed.parties.map((p) => ({
-      ...emptyParty(),
-      ...p,
-      support:
-        Array.isArray(p?.support) && p.support.length === SUPPORT_SLOTS
-          ? p.support.map((x) => x || null)
-          : emptyParty().support,
-    }));
+parsed.parties = parsed.parties.map((p) => ({
+  ...emptyParty(),
+  ...p,
+  support:
+    Array.isArray(p?.support) && p.support.length === SUPPORT_SLOTS
+      ? p.support.map((x) => x || null)
+      : emptyParty().support,
+  supportBoosts:
+    Array.isArray(p?.supportBoosts) && p.supportBoosts.length === SUPPORT_SLOTS
+      ? p.supportBoosts.map((x) => (x === 2 || x === 3 || x === 4 ? x : 4))
+      : emptyParty().supportBoosts,
+}));
 
     if (!parsed.rosterFilters) parsed.rosterFilters = { color: "All", role: "All" };
     if (!parsed.rosterFilters.color) parsed.rosterFilters.color = "All";
@@ -378,12 +384,14 @@ function ActiveCard({
 
 function SupportTile({
   char,
+  boostTier = 4,
   selected,
   highlight,
   onClick,
   onDropPayload,
   onDragStartPayload,
   onDragEnd,
+  onBoostChange,
 }) {
   const name = char ? formatName(char.name) : "";
 
@@ -414,9 +422,26 @@ function SupportTile({
           <MiniOverlay char={char} />
         </div>
 
-        <div className="text-[10px] px-1.5 py-1 line-clamp-2 text-white/75 min-h-[36px]">
-          {name}
-        </div>
+  <div className="text-[10px] px-1.5 pt-1 line-clamp-2 text-white/75 min-h-[28px]">
+  {name}
+</div>
+
+<div className="px-1.5 pb-1">
+  <select
+    value={boostTier}
+    disabled={!char}
+    onClick={(e) => e.stopPropagation()}
+    onChange={(e) => {
+      e.stopPropagation();
+      onBoostChange?.(Number(e.target.value));
+    }}
+    className="w-full bg-black/40 border border-white/20 rounded text-[10px] px-1 py-0.5 text-white disabled:opacity-40"
+  >
+    <option value={2}>B2</option>
+    <option value={3}>B3</option>
+    <option value={4}>B4</option>
+  </select>
+</div>
       </div>
     </Frame>
   );
@@ -519,6 +544,9 @@ export default function PartyBuilder() {
   const support = Array.isArray(party.support)
     ? party.support
     : Array.from({ length: SUPPORT_SLOTS }, () => null);
+    const supportBoosts = Array.isArray(party.supportBoosts)
+  ? party.supportBoosts
+  : Array.from({ length: SUPPORT_SLOTS }, () => 4);
 
   const activeKey1 = useMemo(() => normalizeCharacterKey(active1?.name), [active1]);
   const activeKey2 = useMemo(() => normalizeCharacterKey(active2?.name), [active2]);
@@ -527,39 +555,39 @@ export default function PartyBuilder() {
   const sameColorCount = support.filter((s) => s && getPrimaryColor(s) === partyColor).length;
   const bonus = partyColor ? sameColorCount * 10 : 0;
 
-  const supportPercent1 = useMemo(() => {
+const supportPercent1 = useMemo(() => {
   if (!active1) return 0;
 
-  return support.reduce((sum, c) => {
+  return support.reduce((sum, c, i) => {
     if (!c) return sum;
 
     const result = getSupportPercent({
       baseStars: c.baseStars,
       supportColor: c.primaryColor || c.color,
-      boostTier: 4,
+      boostTier: supportBoosts[i] || 4,
       activeColor: active1.primaryColor || active1.color,
     });
 
     return sum + (result?.value || 0);
   }, 0);
-}, [active1, support]);
+}, [active1, support, supportBoosts]);
 
 const supportPercent2 = useMemo(() => {
   if (!active2) return 0;
 
-  return support.reduce((sum, c) => {
+  return support.reduce((sum, c, i) => {
     if (!c) return sum;
 
     const result = getSupportPercent({
       baseStars: c.baseStars,
       supportColor: c.primaryColor || c.color,
-      boostTier: 4,
+      boostTier: supportBoosts[i] || 4,
       activeColor: active2.primaryColor || active2.color,
     });
 
     return sum + (result?.value || 0);
   }, 0);
-}, [active2, support]);
+}, [active2, support, supportBoosts]);
 
   const supportTagLevels = useMemo(() => {
     const counts = new Map();
@@ -589,6 +617,13 @@ const supportPercent2 = useMemo(() => {
     newParties[partyIndex] = { ...party, ...patch };
     setState({ ...state, parties: newParties });
   }
+
+  function setSupportBoost(index, boost) {
+  const nextBoost = boost === 2 || boost === 3 || boost === 4 ? boost : 4;
+  const newBoosts = [...supportBoosts];
+  newBoosts[index] = nextBoost;
+  updateParty({ supportBoosts: newBoosts });
+}
 
   function sanitizeParty(nextParty) {
     const seen = new Set();
@@ -1033,24 +1068,26 @@ return (
                 style={{ gridTemplateColumns: "repeat(auto-fit, minmax(96px, 1fr))" }}
               >
                 {support.map((s, i) => (
-                  <SupportTile
-                    key={i}
-                    char={s}
-                    selected={mode === `support-${i}`}
-                    highlight={dragPayload ? supportHighlights[i] : false}
-                    onClick={() => setState({ ...state, mode: `support-${i}` })}
-                    onDropPayload={(payload) => {
-                      handleDropToSupport(i, payload);
-                      setDragging(null);
-                    }}
-                    onDragStartPayload={() => {
-                      const p = { type: "support", index: i };
-                      setDragging(p);
-                      return p;
-                    }}
-                    onDragEnd={() => setDragging(null)}
-                  />
-                ))}
+  <SupportTile
+    key={i}
+    char={s}
+    boostTier={supportBoosts[i] || 4}
+    selected={mode === `support-${i}`}
+    highlight={dragPayload ? supportHighlights[i] : false}
+    onClick={() => setState({ ...state, mode: `support-${i}` })}
+    onDropPayload={(payload) => {
+      handleDropToSupport(i, payload);
+      setDragging(null);
+    }}
+    onDragStartPayload={() => {
+      const p = { type: "support", index: i };
+      setDragging(p);
+      return p;
+    }}
+    onDragEnd={() => setDragging(null)}
+    onBoostChange={(value) => setSupportBoost(i, value)}
+  />
+))}
               </div>
             </Frame>
 
