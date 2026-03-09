@@ -422,26 +422,27 @@ function SupportTile({
           <MiniOverlay char={char} />
         </div>
 
-  <div className="text-[10px] px-1.5 pt-1 line-clamp-2 text-white/75 min-h-[28px]">
+<div className="text-[10px] px-1.5 pt-1 line-clamp-2 text-white/75 min-h-[28px]">
   {name}
 </div>
 
-<div className="px-1.5 pb-1">
-  <select
-    value={boostTier}
-    disabled={!char}
-    onClick={(e) => e.stopPropagation()}
-    onChange={(e) => {
-      e.stopPropagation();
-      onBoostChange?.(Number(e.target.value));
-    }}
-    className="w-full bg-black/40 border border-white/20 rounded text-[10px] px-1 py-0.5 text-white disabled:opacity-40"
-  >
-    <option value={2}>B2</option>
-    <option value={3}>B3</option>
-    <option value={4}>B4</option>
-  </select>
-</div>
+{char ? (
+  <div className="px-1.5 pb-1">
+    <select
+      value={boostTier}
+      onClick={(e) => e.stopPropagation()}
+      onChange={(e) => {
+        e.stopPropagation();
+        onBoostChange?.(Number(e.target.value));
+      }}
+      className="w-full bg-black/40 border border-white/20 rounded text-[10px] px-1 py-0.5 text-white"
+    >
+      <option value={2}>B2</option>
+      <option value={3}>B3</option>
+      <option value={4}>B4</option>
+    </select>
+  </div>
+) : null}
       </div>
     </Frame>
   );
