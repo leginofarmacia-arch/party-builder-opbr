@@ -493,6 +493,19 @@ export default function PartyBuilder() {
 
   const { partyIndex, mode, search, parties, rosterFilters } = state;
   const party = parties[partyIndex] || emptyParty();
+  const partyName = party.name || "";
+  const setPartyName = (name) => {
+    const newParties = [...parties];
+    newParties[partyIndex] = {
+      ...party,
+      name
+    };
+    setState ({
+      ...state,
+      parties: newParties
+    });
+
+  };
 
   const roster = Array.isArray(charactersData) ? charactersData : [];
   const rosterById = useMemo(() => {
@@ -514,13 +527,6 @@ export default function PartyBuilder() {
   const sameColorCount = support.filter((s) => s && getPrimaryColor(s) === partyColor).length;
   const bonus = partyColor ? sameColorCount * 10 : 0;
 
-  const totalPower = useMemo(() => {
-    const a1 = active1?.power || 0;
-    const a2 = active2?.power || 0;
-    const sup = support.reduce((sum, c) => sum + (c?.power || 0), 0);
-    return a1 + a2 + sup;
-  }, [active1, active2, support]);
-  
   const supportPercent1 = useMemo(() => {
   if (!active1) return 0;
 
@@ -962,14 +968,15 @@ const supportPercent2 = useMemo(() => {
 
             {/* Active: responsive dentro 520 (niente width fisse) */}
             {/* TOTAL PARTY POWER */}
-<div className="flex justify-between items-center mb-2 px-1">
-  <div className="font-bold text-sm">
-    Total Party Power
-  </div>
-
-  <div className="font-bold text-2xl">
-    {totalPower}
-  </div>
+{/* PARTY NAME */}
+<div className="mb-2">
+  <input
+    type="text"
+    value={partyName}
+    onChange={(e) => setPartyName(e.target.value)}
+    placeholder="Enter party name..."
+    className="w-full bg-black/40 text-white text-center font-bold text-lg px-2 py-1 rounded border border-white/20"
+  />
 </div>
             <div className="grid grid-cols-2 gap-2">
               <ActiveCard
