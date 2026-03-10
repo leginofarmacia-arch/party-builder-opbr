@@ -14,7 +14,11 @@ const STORAGE_KEY = "opbr_party_builder_ui";
    HELPERS
 ============================= */
 function formatName(n) {
-  return String(n || "").replace(/\n/g, " ");
+  return String(n || "")
+    .replace(/[^\x20-\x7EÀ-ÿ]/g, "")
+    .replace(/\n/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function getPrimaryColor(char) {
@@ -341,12 +345,16 @@ function ActiveCard({
           onDropPayload(payload);
         }}
         draggable={!!char}
-        onDragStart={(e) => {
-          if (!char) return;
-          const p = onDragStartPayload();
-          e.dataTransfer.setData("text/plain", makePayload(p));
-          e.dataTransfer.effectAllowed = "move";
-        }}
+       onDragStart={(e) => {
+  const ghost = new Image();
+  e.dataTransfer.setDragImage(ghost, 0, 0);
+
+  if (disabled) return;
+  const p = { type: "roster", id: String(char.id) };
+  e.dataTransfer.setData("text/plain", makePayload(p));
+  e.dataTransfer.effectAllowed = "copy";
+  onDragStart?.(p);
+}}
         onDragEnd={onDragEnd}
         role="button"
         tabIndex={0}
@@ -368,13 +376,16 @@ function ActiveCard({
   <img
     src={getCharacterIcon(char.id)}
     alt={char.name}
-    className="w-full h-full object-cover"
+    className="w-full h-full object-cover block pointer-events-none"
     draggable={false}
+    onError={(e) => {
+      e.currentTarget.style.display = "none";
+    }}
   />
 ) : (
   "EMPTY"
 )}
-            <MiniOverlay char={char} />
+           {/* <MiniOverlay char={char} /> */}
           </div>
 
           <div className="mt-2 text-sm font-extrabold leading-tight">{name}</div>
@@ -416,12 +427,15 @@ function SupportTile({
           onDropPayload(payload);
         }}
         draggable={!!char}
-        onDragStart={(e) => {
-          if (!char) return;
-          const p = onDragStartPayload();
-          e.dataTransfer.setData("text/plain", makePayload(p));
-          e.dataTransfer.effectAllowed = "move";
-        }}
+       onDragStart={(e) => {
+  const ghost = new Image();
+  e.dataTransfer.setDragImage(ghost, 0, 0);
+
+  if (!char) return;
+  const p = onDragStartPayload();
+  e.dataTransfer.setData("text/plain", makePayload(p));
+  e.dataTransfer.effectAllowed = "move";
+}}
         onDragEnd={onDragEnd}
         title={name || "Empty"}
         role="button"
@@ -432,13 +446,16 @@ function SupportTile({
   <img
     src={getCharacterIcon(char.id)}
     alt={char.name}
-    className="w-full h-full object-cover"
+    className="w-full h-full object-cover block pointer-events-none"
     draggable={false}
+    onError={(e) => {
+      e.currentTarget.style.display = "none";
+    }}
   />
 ) : (
   "+"
 )}
-          <MiniOverlay char={char} />
+          {/* <MiniOverlay char={char} /> */}
         </div>
 
 <div className="text-[10px] px-1.5 pt-1 line-clamp-2 text-white/75 min-h-[28px]">
@@ -474,12 +491,15 @@ function RosterTile({ char, selected, disabled, onClick, onDragStart, onDragEnd 
     <div
       draggable={!disabled}
       onDragStart={(e) => {
-        if (disabled) return;
-        const p = { type: "roster", id: String(char.id) };
-        e.dataTransfer.setData("text/plain", makePayload(p));
-        e.dataTransfer.effectAllowed = "copy";
-        onDragStart?.(p);
-      }}
+  const ghost = new Image();
+  e.dataTransfer.setDragImage(ghost, 0, 0);
+
+  if (disabled) return;
+  const p = { type: "roster", id: String(char.id) };
+  e.dataTransfer.setData("text/plain", makePayload(p));
+  e.dataTransfer.effectAllowed = "copy";
+  onDragStart?.(p);
+}}
       onDragEnd={onDragEnd}
       onClick={() => {
         if (disabled) return;
@@ -500,16 +520,19 @@ function RosterTile({ char, selected, disabled, onClick, onDragStart, onDragEnd 
         <img
   src={getCharacterIcon(char.id)}
   alt={char.name}
-  className="w-full h-full object-cover"
+  className="w-full h-full object-cover block pointer-events-none"
   draggable={false}
+  onError={(e) => {
+    e.currentTarget.style.display = "none";
+  }}
 />
-        <MiniOverlay char={char} />
+       {/*  <MiniOverlay char={char} /> */}
       </div>
 
       <div className="px-1 py-1">
         <div className="text-[10px] font-semibold leading-tight line-clamp-2">{name}</div>
         <div className="text-[9px] text-white/60 mt-0.5">
-          {getPrimaryRole(char) || "—"} • {getPrimaryColor(char) || "—"}
+          {getPrimaryRole(char) || "—"} - {getPrimaryColor(char) || "—"}
         </div>
       </div>
     </div>
