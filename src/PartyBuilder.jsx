@@ -217,23 +217,44 @@ function readPayload(str) {
    UI COMPONENTS
 ============================= */
 
-function MiniOverlay({ char }) {
+function MiniOverlay({ char, boostTier }) {
   if (!char) return null;
+
   const col = getPrimaryColor(char);
   const role = getPrimaryRole(char);
   const letter = roleLetter(role);
-  const isLight = ["light", "white"].includes(String(col || "").toLowerCase().trim());
+  const isLight = ["light", "white"].includes(
+    String(col || "").toLowerCase().trim()
+  );
 
   return (
-    <div className="absolute bottom-1 left-1 flex items-center gap-1">
-      <div className={`w-3 h-3 rounded-full ${colorDotClass(col)} border border-black/50`} />
-      <div
-        className={`text-[8px] px-1 rounded border border-white/10 ${
-          isLight ? "bg-white/70 text-black" : "bg-black/60 text-white"
-        }`}
-      >
-        {letter}
-      </div>
+    <div className="absolute inset-0 pointer-events-none">
+      {/* colore in alto a sinistra */}
+      {col ? (
+        <div className="absolute top-1 left-1">
+          <div
+            className={`w-3.5 h-3.5 rounded-full ${colorDotClass(col)} border border-black/60 shadow`}
+          />
+        </div>
+      ) : null}
+
+      {/* ruolo accanto al colore */}
+      {letter ? (
+        <div
+          className={`absolute top-1 left-6 text-[9px] px-1 rounded border border-white/15 font-bold ${
+            isLight ? "bg-white/80 text-black" : "bg-black/65 text-white"
+          }`}
+        >
+          {letter}
+        </div>
+      ) : null}
+
+      {/* boost in alto a destra */}
+      {boostTier ? (
+        <div className="absolute top-1 right-1 text-[9px] px-1 rounded bg-black/65 text-white border border-white/15 font-bold">
+          B{boostTier}
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -371,22 +392,21 @@ function ActiveCard({
         </div>
 
         <div className="p-2">
-          <div className="h-[128px] bg-[#40464e] relative flex items-center justify-center text-white/60 text-xs border border-black/60 rounded">
-            {char ? (
-  <img
-    src={getCharacterIcon(char.id)}
-    alt={char.name}
-    className="w-full h-full object-cover block pointer-events-none"
-    draggable={false}
-    onError={(e) => {
-      e.currentTarget.style.display = "none";
-    }}
-  />
-) : (
-  "EMPTY"
-)}
-           {/* <MiniOverlay char={char} /> */}
-          </div>
+          <div className="h-[148px] bg-gradient-to-b from-[#4b525c] to-[#2b3037] relative flex items-center justify-center border border-black/60 rounded overflow-hidden shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
+  {char ? (
+    <img
+      src={getCharacterIcon(char.id)}
+      alt={char.name}
+      className="w-full h-full object-contain p-1 block pointer-events-none drop-shadow-[0_3px_6px_rgba(0,0,0,0.55)]"
+      draggable={false}
+      onError={(e) => {
+        e.currentTarget.style.display = "none";
+      }}
+    />
+  ) : (
+    "EMPTY"
+  )}
+</div>
 
           <div className="mt-2 text-sm font-extrabold leading-tight">{name}</div>
          
@@ -441,12 +461,12 @@ function SupportTile({
         role="button"
         tabIndex={0}
       >
-        <div className="h-[86px] bg-[#40464e] relative flex items-center justify-center text-white/60 text-[10px] border-b border-black/60">
+        <div className="h-[86px] bg-gradient-to-b from-[#4b525c] to-[#2b3037] relative flex items-center justify-center border-b border-black/60 overflow-hidden">
           {char ? (
   <img
     src={getCharacterIcon(char.id)}
     alt={char.name}
-    className="w-full h-full object-cover block pointer-events-none"
+    className="w-full h-full object-contain p-1 block pointer-events-none drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]"
     draggable={false}
     onError={(e) => {
       e.currentTarget.style.display = "none";
@@ -516,11 +536,11 @@ function RosterTile({ char, selected, disabled, onClick, onDragStart, onDragEnd 
       role="button"
       tabIndex={0}
     >
-      <div className="h-20 bg-[#40464e] relative flex items-center justify-center text-white/60 text-[10px] border-b border-black/60">
+      <div className="h-20 bg-gradient-to-b from-[#4b525c] to-[#2b3037] relative flex items-center justify-center border-b border-black/60 overflow-hidden">
         <img
   src={getCharacterIcon(char.id)}
   alt={char.name}
-  className="w-full h-full object-cover block pointer-events-none"
+  className="w-full h-full object-contain p-1 block pointer-events-none drop-shadow-[0_2px_4px_rgba(0,0,0,0.45)]"
   draggable={false}
   onError={(e) => {
     e.currentTarget.style.display = "none";
